@@ -1,3 +1,5 @@
+> **Extracted data subset.** This folder retains aggregate evaluation files and attribution from [ObsScaling at `4d6e1e43fd26`](https://github.com/ryoungj/ObsScaling/tree/4d6e1e43fd2635d04654aa77d1df9d5266ea0382). The notebooks, utilities and training environment described below belong to the full upstream repository; notebook links point to that pinned version. Use this release’s [quick start](../../../../README.md#setup-and-reproduction) for the analyses in the scientific-discovery paper.
+
 # Observational Scaling Laws
 
 
@@ -11,7 +13,7 @@
 This repo contains the code for the paper [Observational Scaling Laws and the Predictability of Language Model Performance](https://arxiv.org/abs/2405.10938).
 
 <div align="center">
-  <img src="assets/main.jpg" width="90%">
+  <img src="https://raw.githubusercontent.com/ryoungj/ObsScaling/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/assets/main.jpg" width="90%">
 </div>
 
 <br>
@@ -113,11 +115,11 @@ _ = plot_scaling_predictions(
 
 ### Selecting Model Subsets for Efficient Scaling Analyses
 
-<a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/main/model_subset_selection_guide.ipynb">
+<a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/model_subset_selection_guide.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-We provide [a simple guideline and minimal examples](./model_subset_selection_guide.ipynb) of selecting representative model subsets from available public models for low-cost scaling analyses (Sec 5 of the paper).
+We provide [a simple guideline and minimal examples](https://github.com/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/model_subset_selection_guide.ipynb) of selecting representative model subsets from available public models for low-cost scaling analyses (Sec 5 of the paper).
 
 
 ### Collected Benchmark Results
@@ -148,27 +150,27 @@ Feel free to make a pull request to contribute your collected data to our repo f
 
 ## Reproducing the Results
 We provide notebooks to reproduce our major results in the paper, including:
-- [Post-training scaling analysis (Sec 4.2)](./base_llm_post_training.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/main/base_llm_post_training.ipynb">
+- [Post-training scaling analysis (Sec 4.2)](https://github.com/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_post_training.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_post_training.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-- [Emergent capability analysis (Sec 4.1)](./base_llm_emergent_capability.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/main/base_llm_emergent_capability.ipynb">
+- [Emergent capability analysis (Sec 4.1)](https://github.com/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_emergent_capability.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_emergent_capability.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-- [Agentic capability analysis (Sec 4.3)](./instruct_llm_agent_capability.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/main/instruct_llm_agent_capability.ipynb">
+- [Agentic capability analysis (Sec 4.3)](https://github.com/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/instruct_llm_agent_capability.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/instruct_llm_agent_capability.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-- [PC analysis of standard benchmarks (Sec 3.2 & 3.3)](./base_llm_eval_pca_scaling.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/main/base_llm_eval_pca_scaling.ipynb">
+- [PC analysis of standard benchmarks (Sec 3.2 & 3.3)](https://github.com/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_eval_pca_scaling.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_eval_pca_scaling.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-- [Model subset selection (Sec 5)](./model_subset_selection_eval.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/main/model_subset_selection_eval.ipynb">
+- [Model subset selection (Sec 5)](https://github.com/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/model_subset_selection_eval.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/model_subset_selection_eval.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-- [Leaderboard v2 prediction (Appx C.3)](./base_llm_leaderboard_v2.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/main/base_llm_leaderboard_v2.ipynb">
+- [Leaderboard v2 prediction (Appx C.3)](https://github.com/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_leaderboard_v2.ipynb) <a href="https://colab.research.google.com/github/ryoungj/ObsScaling/blob/4d6e1e43fd2635d04654aa77d1df9d5266ea0382/base_llm_leaderboard_v2.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 

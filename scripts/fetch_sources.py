@@ -5,6 +5,8 @@ P=Path(__file__).resolve().parents[1]
 m=json.loads((P/'SOURCE_DATA.json').read_text())
 base=P/'evidence/eleven_review_remediation_2026-09-21_001619'
 for rel,digest in m['files'].items():
+ # Bundled README has subset navigation; original upstream digest remains in SOURCE_DATA.json.
+ if rel == 'sources/gollum/README.md':continue
  tail=rel.split('sources/gollum/',1)[1]
  dest=base/rel
  if dest.exists() and hashlib.sha256(dest.read_bytes()).hexdigest()==digest:continue

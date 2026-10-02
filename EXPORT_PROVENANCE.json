@@ -4,13 +4,15 @@
   "source_pdf_sha256": "8bb0e1bf7a96f8eaa52a98291eb5bb1648c14fc1ccd8f66b5bb7bdceed8bbd05",
   "transforms": [
     "check_eleven_review.py: omit internal consolidation-plan hash check; scientific contract/source checks retained",
-    "verify_horizon_specification.py: omit internal historical review hash check; all scientific checks unchanged"
+    "verify_horizon_specification.py: omit internal historical review hash check; all scientific checks unchanged",
+    "Upstream README navigation adapted for extracted subsets; original source data and licences unchanged",
+    "CONTRACT.md: obsolete final editing note removed; scientific specification unchanged"
   ],
   "excluded": [
     "internal records and Git history",
-    "compiled manuscript PDF",
     "raw chemistry inputs and raw-outcome traces",
     "METR source YAML and raw historical-crossing output",
     "machine-specific generated manifests"
-  ]
+  ],
+  "bundled_pdf_sha256": "b9f6ba6fd73a39f0137499336c4e6d859e7ee547f9d75ff5d46491c88432e103"
 }

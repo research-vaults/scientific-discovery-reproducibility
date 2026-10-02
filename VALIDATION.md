@@ -12,6 +12,6 @@
 
 ## Boundaries
 
-Automated signature scans cannot prove absence of every possible secret or identifying clue. This is a public reproducibility repository, not a claim of perfect anonymity. Full scientific validity, data licenses beyond established upstream terms, future source availability and prospective forecasting performance are not certified by these checks. No new page-by-page visual review was performed for this release. Raw chemistry data, METR YAML inputs, private reviews, planning records, model-chat traces and compiled manuscript PDFs are excluded from Git.
+Automated signature scans cannot prove absence of every possible secret or identifying clue. This is a public reproducibility repository, not a claim of perfect anonymity. Full scientific validity, data licenses beyond established upstream terms, future source availability and prospective forecasting performance are not certified by these checks. No new page-by-page visual review was performed for this release. Raw chemistry data, METR YAML inputs, private reviews, planning records, model-chat traces are excluded from Git.
 
 `SHA256SUMS` records all tracked release files except itself. Source acquisition is checksum-locked; upstream changes must not be silently accepted.

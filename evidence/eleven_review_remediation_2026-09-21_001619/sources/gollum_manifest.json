@@ -3,7 +3,7 @@
   "source_url": "https://github.com/schwallergroup/gollum",
   "files": {
     "sources/gollum/LICENSE": "0bbb75c895f7f2f3ebc907e2f3fed5f2346b597bd9acbccae01a3c2e75fb317e",
-    "sources/gollum/README.md": "90592d678bbffc9519e1075a243872977f6cdc5729c263c2387ab5968ac549a6",
+    "sources/gollum/README.md": "5c2decbf56eac399131dacbf2ecaabdb5e6fe6b1cf1064739911f855408c216e",
     "sources/gollum/data/c2-yield/c2_yield_data.csv": "ed8673d7a4d153246d4f5d69aec016cef3f773eff0c39a917a89c970f0a376a7",
     "sources/gollum/data/additives/additive_rxn_screening_plate_3.csv": "3002576f31a20a6d04cf17ccc9a15142a4b0f75197bbb479d657a68d26acac10",
     "sources/gollum/data/additives/additive_rxn_screening_plate_2.csv": "ce43af4b460f1b6eb787fb2b8701a45cd6f66b864603fc37b421a80ee881d831",
@@ -19,5 +19,6 @@
     "sources/gollum/data/suzuki-miyaura/suzuki_miyaura_data.csv": "261c18daefd71736da8cd14d55dd79dada72fcc9c4a644afbc988b5b71182861",
     "sources/gollum/data/oer/oer_data.csv": "5421a8c9617468967defd500c33ae62eb3edfd16356bb299c104f07551632943",
     "sources/gollum/src/gollum/data/dataset.py": "7d576ddcfbb7f4cfefd08d1d69bf56a3f8152f0c32a51e0261994dc66cc8ead8"
-  }
+  },
+  "readme_note": "Subset-adapted navigation; original upstream README digest retained in root SOURCE_DATA.json."
 }

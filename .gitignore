@@ -18,5 +18,3 @@ evidence/review_remediation_2026-09-19/sources/metr_*.yaml
 *.out
 *.fls
 *.fdb_latexmk
-
-manuscript/paper.pdf

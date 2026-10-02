@@ -1,3 +1,5 @@
+> **Extracted source subset.** This release uses pinned data and the dataset loader from [GOLLuM at `c418d7ed3c17`](https://github.com/schwallergroup/gollum/tree/c418d7ed3c17e5995f503f6df7c26e9f7c58d09f). The upstream overview, attribution and citation below are retained; its installation and training instructions apply to the full upstream repository, not this subset. The dependency link is corrected to the file present at that commit. Use this release’s [quick start](../../../../README.md#setup-and-reproduction) to reproduce its fixed analyses.
+
 # GOLLuM: Gaussian Process Optimized LLMs – Reframing LLMs as Principled Bayesian Optimizers 🧙‍♂️📈
 
 **GOLLuM – Gaussian Process Optimized LLMs are here!**  
@@ -48,7 +50,7 @@ conda activate gollum
 pip install -r requirements.txt
 ```
 
-For manual setup or more details, see [docs/DEPENDENCIES.md](docs/DEPENDENCIES.md).
+For manual setup or more details, see [docs/DEPENDENCIES.md](https://github.com/schwallergroup/gollum/blob/c418d7ed3c17e5995f503f6df7c26e9f7c58d09f/DEPENDENCIES.md).
 
 ---
 

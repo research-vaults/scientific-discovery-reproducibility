@@ -8,4 +8,4 @@ for script in ['analyze_review_evidence.py','analyze_joint_holdouts.py','check_j
 subprocess.run(['latexmk','-pdf','-interaction=nonstopmode','-halt-on-error','-outdir=build','paper.tex'],cwd=P/'manuscript',check=True)
 shutil.copy2(P/'manuscript/build/paper.pdf',P/'manuscript/paper.pdf')
 runpy.run_path(str(P/'scripts/record_evidence.py'),run_name='__main__')
-print('Canonical review PDF:',P/'manuscript/paper.pdf')
+print('Reproduced paper PDF:',P/'manuscript/paper.pdf')
