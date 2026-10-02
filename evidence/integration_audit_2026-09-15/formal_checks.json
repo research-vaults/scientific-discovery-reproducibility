@@ -1,0 +1,41 @@
+{
+  "evidence_kind": "exact hypothetical illustrations, not empirical estimates",
+  "reduction": {
+    "calls": 3,
+    "call_cost": 10,
+    "overhead": 20,
+    "call_error": 0.01,
+    "residual_error": 0.02,
+    "target_budget_upper_bound": 50,
+    "target_success_lower_bound": 0.95
+  },
+  "composition": {
+    "target_budget_upper_bound": 107,
+    "failure_upper_bound": 0.11
+  },
+  "distribution_counterexample": {
+    "source_success": 0.99,
+    "target_success": 0.0
+  },
+  "resource_order": {
+    "generators": [
+      [
+        10,
+        10
+      ],
+      [
+        100,
+        1
+      ]
+    ],
+    "incomparable": true
+  },
+  "frontier_special_case": {
+    "alpha": 2.0,
+    "beta": 0.3,
+    "eta": 0.1,
+    "slope": 0.2,
+    "parameters_stipulated": true
+  },
+  "status": "PASS"
+}

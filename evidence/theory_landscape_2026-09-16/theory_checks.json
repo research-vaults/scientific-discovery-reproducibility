@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "finite_class": [
+    {
+      "log2_class_size": 64,
+      "sufficient_budget": 948
+    },
+    {
+      "log2_class_size": 16,
+      "sufficient_budget": 282
+    }
+  ],
+  "response_weight_sensitivity": [
+    {
+      "weight_first": 0.8,
+      "distance_QR": 0.8,
+      "distance_QS": 0.2
+    },
+    {
+      "weight_first": 0.2,
+      "distance_QR": 0.2,
+      "distance_QS": 0.8
+    }
+  ],
+  "zero_weight_boundary": {
+    "weights": [
+      1,
+      0
+    ],
+    "first": [
+      0,
+      0
+    ],
+    "second": [
+      0,
+      1
+    ],
+    "distance": 0,
+    "interpretation": "Zero distance does not imply agreement on ignored coordinates"
+  },
+  "rare_positive": {
+    "N": 1000,
+    "accuracy": 0.999,
+    "expected_queries": 500.5
+  },
+  "enumerated_N": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "scope": "Constructed arithmetic and finite checks; not a proof of universal scientific scaling or an empirical result."
+}

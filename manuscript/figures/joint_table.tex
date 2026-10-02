@@ -1,0 +1,26 @@
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{Rate-MSE} & \multicolumn{2}{c}{Cross-entropy}\\
+Predictor & Equal cell & Equal family & Equal cell & Equal family\\
+\midrule
+\multicolumn{5}{l}{Joint model/task holdout (438 cells)}\\
+Pooled mean & 0.04464 & 0.05323 & 0.59871 & 0.64146\\
+Task-family mean & 0.04464 & 0.05323 & 0.59871 & 0.64146\\
+PC1 & 0.03570 & 0.04318 & 0.57954 & 0.62116\\
+PC1--3 & 0.03790 & 0.04592 & 0.58748 & 0.63075\\
+Count only & 0.04102 & 0.05346 & 0.59388 & 0.65102\\
+PC1--3 + count & 0.02845 & 0.03558 & 0.56293 & 0.60588\\
+PC1--3 + count interactions & 0.03012 & 0.03771 & 0.56722 & 0.61125\\
+PC1--3 + chance floor & 0.02873 & 0.03503 & 0.55860 & 0.59759\\
+\midrule
+\multicolumn{5}{l}{Joint model/task holdout, seven objects (146 cells)}\\
+Pooled mean & 0.04857 & 0.04471 & 0.53373 & 0.56189\\
+Task-family mean & 0.04857 & 0.04471 & 0.53373 & 0.56189\\
+PC1 & 0.03685 & 0.04091 & 0.49685 & 0.54539\\
+PC1--3 & 0.03919 & 0.04406 & 0.50325 & 0.55314\\
+Count only & 0.02915 & 0.04253 & 0.49639 & 0.57769\\
+PC1--3 + count & 0.02088 & 0.02832 & 0.46907 & 0.53028\\
+PC1--3 + count interactions & 0.02385 & 0.03279 & 0.47760 & 0.54295\\
+PC1--3 + chance floor & 0.02899 & 0.03354 & 0.47951 & 0.53050\\
+\bottomrule
+\end{tabular}

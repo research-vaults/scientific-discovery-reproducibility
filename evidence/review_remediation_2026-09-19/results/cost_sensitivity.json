@@ -1,0 +1,1622 @@
+[
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 7,
+    "candidate_reserve": 9,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 7,
+    "candidate_reserve": 7,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 7,
+    "candidate_reserve": 6,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 7,
+    "candidate_reserve": 4,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 7,
+    "candidate_reserve": 2,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 14,
+    "candidate_reserve": 18,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 14,
+    "candidate_reserve": 14,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 14,
+    "candidate_reserve": 12,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 14,
+    "candidate_reserve": 8,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 14,
+    "candidate_reserve": 4,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 70,
+    "candidate_reserve": 90,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 70,
+    "candidate_reserve": 70,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 70,
+    "candidate_reserve": 60,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 70,
+    "candidate_reserve": 40,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 70,
+    "candidate_reserve": 20,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 700,
+    "candidate_reserve": 900,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 700,
+    "candidate_reserve": 700,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 700,
+    "candidate_reserve": 600,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 700,
+    "candidate_reserve": 400,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 700,
+    "candidate_reserve": 200,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 7,
+    "candidate_reserve": 18,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 7,
+    "candidate_reserve": 14,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 7,
+    "candidate_reserve": 12,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 7,
+    "candidate_reserve": 8,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 7,
+    "candidate_reserve": 4,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 14,
+    "candidate_reserve": 27,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 14,
+    "candidate_reserve": 21,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 14,
+    "candidate_reserve": 18,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 14,
+    "candidate_reserve": 12,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 14,
+    "candidate_reserve": 6,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 70,
+    "candidate_reserve": 99,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 70,
+    "candidate_reserve": 77,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 70,
+    "candidate_reserve": 66,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 70,
+    "candidate_reserve": 44,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 70,
+    "candidate_reserve": 22,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 700,
+    "candidate_reserve": 909,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 700,
+    "candidate_reserve": 707,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 700,
+    "candidate_reserve": 606,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 700,
+    "candidate_reserve": 404,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 700,
+    "candidate_reserve": 202,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 7,
+    "candidate_reserve": 36,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 7,
+    "candidate_reserve": 28,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 7,
+    "candidate_reserve": 24,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 7,
+    "candidate_reserve": 16,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 7,
+    "candidate_reserve": 8,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 14,
+    "candidate_reserve": 45,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 14,
+    "candidate_reserve": 35,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 14,
+    "candidate_reserve": 30,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 14,
+    "candidate_reserve": 20,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 14,
+    "candidate_reserve": 10,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 70,
+    "candidate_reserve": 117,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 70,
+    "candidate_reserve": 91,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 70,
+    "candidate_reserve": 78,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 70,
+    "candidate_reserve": 52,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 70,
+    "candidate_reserve": 26,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 700,
+    "candidate_reserve": 927,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 700,
+    "candidate_reserve": 721,
+    "saves": false
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 700,
+    "candidate_reserve": 618,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 700,
+    "candidate_reserve": 412,
+    "saves": true
+  },
+  {
+    "q": 0.5,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 700,
+    "candidate_reserve": 206,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 22,
+    "candidate_reserve": 28,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 22,
+    "candidate_reserve": 22,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 22,
+    "candidate_reserve": 19,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 22,
+    "candidate_reserve": 11,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 22,
+    "candidate_reserve": 7,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 44,
+    "candidate_reserve": 56,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 44,
+    "candidate_reserve": 44,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 44,
+    "candidate_reserve": 38,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 44,
+    "candidate_reserve": 22,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 44,
+    "candidate_reserve": 14,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 220,
+    "candidate_reserve": 280,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 220,
+    "candidate_reserve": 220,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 220,
+    "candidate_reserve": 190,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 220,
+    "candidate_reserve": 110,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 220,
+    "candidate_reserve": 70,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 2800,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 2200,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 1900,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 1100,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 700,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 22,
+    "candidate_reserve": 56,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 22,
+    "candidate_reserve": 44,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 22,
+    "candidate_reserve": 38,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 22,
+    "candidate_reserve": 22,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 22,
+    "candidate_reserve": 14,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 44,
+    "candidate_reserve": 84,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 44,
+    "candidate_reserve": 66,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 44,
+    "candidate_reserve": 57,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 44,
+    "candidate_reserve": 33,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 44,
+    "candidate_reserve": 21,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 220,
+    "candidate_reserve": 308,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 220,
+    "candidate_reserve": 242,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 220,
+    "candidate_reserve": 209,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 220,
+    "candidate_reserve": 121,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 220,
+    "candidate_reserve": 77,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 2828,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 2222,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 1919,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 1111,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 707,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 22,
+    "candidate_reserve": 112,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 22,
+    "candidate_reserve": 88,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 22,
+    "candidate_reserve": 76,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 22,
+    "candidate_reserve": 44,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 22,
+    "candidate_reserve": 28,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 44,
+    "candidate_reserve": 140,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 44,
+    "candidate_reserve": 110,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 44,
+    "candidate_reserve": 95,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 44,
+    "candidate_reserve": 55,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 44,
+    "candidate_reserve": 35,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 220,
+    "candidate_reserve": 364,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 220,
+    "candidate_reserve": 286,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 220,
+    "candidate_reserve": 247,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 220,
+    "candidate_reserve": 143,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 220,
+    "candidate_reserve": 91,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 2884,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 2266,
+    "saves": false
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 1957,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 1133,
+    "saves": true
+  },
+  {
+    "q": 0.9,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 2200,
+    "candidate_reserve": 721,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 44,
+    "candidate_reserve": 56,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 44,
+    "candidate_reserve": 44,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 44,
+    "candidate_reserve": 37,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 44,
+    "candidate_reserve": 21,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 44,
+    "candidate_reserve": 13,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 88,
+    "candidate_reserve": 112,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 88,
+    "candidate_reserve": 88,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 88,
+    "candidate_reserve": 74,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 88,
+    "candidate_reserve": 42,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 88,
+    "candidate_reserve": 26,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 440,
+    "candidate_reserve": 560,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 440,
+    "candidate_reserve": 440,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 440,
+    "candidate_reserve": 370,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 440,
+    "candidate_reserve": 210,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 440,
+    "candidate_reserve": 130,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 5600,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 4400,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 3700,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 2100,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 1,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 1300,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 44,
+    "candidate_reserve": 112,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 44,
+    "candidate_reserve": 88,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 44,
+    "candidate_reserve": 74,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 44,
+    "candidate_reserve": 42,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 44,
+    "candidate_reserve": 26,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 88,
+    "candidate_reserve": 168,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 88,
+    "candidate_reserve": 132,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 88,
+    "candidate_reserve": 111,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 88,
+    "candidate_reserve": 63,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 88,
+    "candidate_reserve": 39,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 440,
+    "candidate_reserve": 616,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 440,
+    "candidate_reserve": 484,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 440,
+    "candidate_reserve": 407,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 440,
+    "candidate_reserve": 231,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 440,
+    "candidate_reserve": 143,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 5656,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 4444,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 3737,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 2121,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 2,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 1313,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.08,
+    "baseline_reserve": 44,
+    "candidate_reserve": 224,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.1,
+    "baseline_reserve": 44,
+    "candidate_reserve": 176,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.12,
+    "baseline_reserve": 44,
+    "candidate_reserve": 148,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.2,
+    "baseline_reserve": 44,
+    "candidate_reserve": 84,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 0,
+    "yield": 0.3,
+    "baseline_reserve": 44,
+    "candidate_reserve": 52,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.08,
+    "baseline_reserve": 88,
+    "candidate_reserve": 280,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.1,
+    "baseline_reserve": 88,
+    "candidate_reserve": 220,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.12,
+    "baseline_reserve": 88,
+    "candidate_reserve": 185,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.2,
+    "baseline_reserve": 88,
+    "candidate_reserve": 105,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 1,
+    "yield": 0.3,
+    "baseline_reserve": 88,
+    "candidate_reserve": 65,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.08,
+    "baseline_reserve": 440,
+    "candidate_reserve": 728,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.1,
+    "baseline_reserve": 440,
+    "candidate_reserve": 572,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.12,
+    "baseline_reserve": 440,
+    "candidate_reserve": 481,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.2,
+    "baseline_reserve": 440,
+    "candidate_reserve": 273,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 9,
+    "yield": 0.3,
+    "baseline_reserve": 440,
+    "candidate_reserve": 169,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.08,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 5768,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.1,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 4532,
+    "saves": false
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.12,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 3811,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.2,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 2163,
+    "saves": true
+  },
+  {
+    "q": 0.99,
+    "proposal_cost": 4,
+    "verification_cost": 99,
+    "yield": 0.3,
+    "baseline_reserve": 4400,
+    "candidate_reserve": 1339,
+    "saves": true
+  }
+]

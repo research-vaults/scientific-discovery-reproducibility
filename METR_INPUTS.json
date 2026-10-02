@@ -1,0 +1,12 @@
+[
+  {
+    "path": "evidence/review_remediation_2026-09-19/sources/metr_results.yaml",
+    "url": "https://metr.org/assets/benchmark_results_1_1.yaml",
+    "sha256": "aae31902b0519a4da73e16643915e5e8aca13cd3315c3aac893ce3d6dfe92ad9"
+  },
+  {
+    "path": "evidence/review_remediation_2026-09-19/sources/metr_release_dates.yaml",
+    "url": "https://raw.githubusercontent.com/METR/eval-analysis-public/52cb829c7a2efb2d659285c4b1768d191d97f8d2/data/external/release_dates.yaml",
+    "sha256": "317b92915df5bf935908567a857116bcf6f0c7686ef8b0840897ed04a29232bc"
+  }
+]

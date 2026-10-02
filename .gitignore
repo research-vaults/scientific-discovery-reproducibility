@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+manuscript/build/
+.env
+.env.*
+evidence/eleven_review_remediation_2026-09-21_001619/sources/gollum/data/
+evidence/eleven_review_remediation_2026-09-21_001619/sources/gollum/src/
+
+# Retrieval-only upstream inputs and locally generated raw-outcome traces
+evidence/review_remediation_2026-09-19/sources/metr_*.yaml
+**/finite_table_traces.json
+**/finite_table_features_outcomes.csv
+**/historical_crossings.json
+**/manifest.json
+*.log
+*.aux
+*.out
+*.fls
+*.fdb_latexmk
+
+manuscript/paper.pdf

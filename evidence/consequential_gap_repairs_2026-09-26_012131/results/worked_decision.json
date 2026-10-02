@@ -1,0 +1,16 @@
+{
+  "q": 0.8,
+  "availability_A": 4.386294361119891,
+  "availability_B": 8.772588722239782,
+  "duration_A": 4,
+  "duration_B": 0.25,
+  "deadline": 10,
+  "completed_attempts_A": 1,
+  "completed_attempts_B": 4,
+  "success_A": 0.8,
+  "success_B": 0.9984,
+  "mean_A": 9.38629436111989,
+  "mean_B": 9.085088722239782,
+  "boundary": 3.509035488895913,
+  "duration_gap": 3.75
+}

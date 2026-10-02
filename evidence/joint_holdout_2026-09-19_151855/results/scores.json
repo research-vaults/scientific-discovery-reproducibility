@@ -1,0 +1,1802 @@
+[
+  {
+    "axis": "joint_families",
+    "predictor": "PC1",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03570338237800831,
+      "cross_entropy": 0.5795412903234906
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04317643209486447,
+      "cross_entropy": 0.6211576207094062
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC1",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03903222586150162,
+      "cross_entropy": 0.6201253830478823
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04651507245618607,
+      "cross_entropy": 0.6699178438029815
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC1",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03237453889451498,
+      "cross_entropy": 0.5389571975990989
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03983779173354286,
+      "cross_entropy": 0.5723973976158312
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03790388974088327,
+      "cross_entropy": 0.5874843498597474
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.045916317934014315,
+      "cross_entropy": 0.6307511677460423
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.041399530458840504,
+      "cross_entropy": 0.6304140637944147
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04921077878585291,
+      "cross_entropy": 0.6816176767636511
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03440824902292603,
+      "cross_entropy": 0.5445546359250801
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04262185708217573,
+      "cross_entropy": 0.5798846587284335
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_chance_floor",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.028729668274686412,
+      "cross_entropy": 0.5585957205231628
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0350308703402934,
+      "cross_entropy": 0.5975881555382561
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_chance_floor",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02736766767845413,
+      "cross_entropy": 0.5840462742513097
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03381965256667775,
+      "cross_entropy": 0.6315770971536301
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_chance_floor",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.030091668870918697,
+      "cross_entropy": 0.5331451667950159
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03624208811390905,
+      "cross_entropy": 0.563599213922882
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_count",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.030123611387613543,
+      "cross_entropy": 0.5672205786004976
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03771422291358008,
+      "cross_entropy": 0.6112547331479334
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_count",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.028724698187989523,
+      "cross_entropy": 0.5993533091238304
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0338866169007568,
+      "cross_entropy": 0.64660035626032
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_count",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.031522524587237574,
+      "cross_entropy": 0.5350878480771648
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04154182892640336,
+      "cross_entropy": 0.5759091100355471
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_count_additive",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02845312710469759,
+      "cross_entropy": 0.5629334946723485
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03557878679401192,
+      "cross_entropy": 0.6058752747902179
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_count_additive",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.027144654108765445,
+      "cross_entropy": 0.5959986081793787
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03253039340450578,
+      "cross_entropy": 0.6437955581110482
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "PC3_count_additive",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.029761600100629736,
+      "cross_entropy": 0.5298683811653182
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03862718018351805,
+      "cross_entropy": 0.5679549914693877
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "count_only",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.041018846494381055,
+      "cross_entropy": 0.5938785687802312
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05345727145097571,
+      "cross_entropy": 0.6510204334184393
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "count_only",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04343164526269328,
+      "cross_entropy": 0.6326480300983536
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.059346934643499015,
+      "cross_entropy": 0.7087874644352077
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "count_only",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.038606047726068835,
+      "cross_entropy": 0.5551091074621087
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.047567608258452375,
+      "cross_entropy": 0.5932534024016707
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "pooled_mean",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.044639773992458436,
+      "cross_entropy": 0.5987090264850875
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0532293546055332,
+      "cross_entropy": 0.6414550090514398
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "pooled_mean",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.043316933583795084,
+      "cross_entropy": 0.6230227113865481
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05424059241149347,
+      "cross_entropy": 0.6796461789790891
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "pooled_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.045962614401121794,
+      "cross_entropy": 0.5743953415836266
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.052218116799572924,
+      "cross_entropy": 0.6032638391237907
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "task_family_mean",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.044639773992458436,
+      "cross_entropy": 0.5987090264850875
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0532293546055332,
+      "cross_entropy": 0.6414550090514398
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "task_family_mean",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.043316933583795084,
+      "cross_entropy": 0.6230227113865481
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05424059241149347,
+      "cross_entropy": 0.6796461789790891
+    }
+  },
+  {
+    "axis": "joint_families",
+    "predictor": "task_family_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.045962614401121794,
+      "cross_entropy": 0.5743953415836266
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.052218116799572924,
+      "cross_entropy": 0.6032638391237907
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC1",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03684836998136071,
+      "cross_entropy": 0.49684665300539554
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.040909471612156224,
+      "cross_entropy": 0.5453871101724924
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC1",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.015783639918116772,
+      "cross_entropy": 0.48857538310639204
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.013565517662823812,
+      "cross_entropy": 0.5384609337993501
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC1",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.05791310004460464,
+      "cross_entropy": 0.5051179229043992
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.06825342556148864,
+      "cross_entropy": 0.5523132865456348
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03919420716330771,
+      "cross_entropy": 0.5032465830518275
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04406458550080278,
+      "cross_entropy": 0.5531391588029966
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.016798787287705886,
+      "cross_entropy": 0.4943022027376442
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.015003299296033704,
+      "cross_entropy": 0.5442450242193205
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.061589627038909536,
+      "cross_entropy": 0.5121909633660109
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.07312587170557186,
+      "cross_entropy": 0.562033293386673
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_chance_floor",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.028991165676070678,
+      "cross_entropy": 0.4795112294754551
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.033539070398491314,
+      "cross_entropy": 0.530496794042557
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_chance_floor",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.01958214735212372,
+      "cross_entropy": 0.5005046601599242
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.020448549589778355,
+      "cross_entropy": 0.5584016981145029
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_chance_floor",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03840018400001765,
+      "cross_entropy": 0.45851779879098614
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.046629591207204266,
+      "cross_entropy": 0.502591889970611
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_count",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.023845233578414466,
+      "cross_entropy": 0.47760152157831615
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0327899039248471,
+      "cross_entropy": 0.542948382955841
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_count",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.01845343251746677,
+      "cross_entropy": 0.5155829682197185
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.02291954687386543,
+      "cross_entropy": 0.5859337436452041
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_count",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02923703463936216,
+      "cross_entropy": 0.4396200749369137
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04266026097582876,
+      "cross_entropy": 0.49996302226647815
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_count_additive",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.020884061349623922,
+      "cross_entropy": 0.4690712402595406
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.028319296179619417,
+      "cross_entropy": 0.5302769963155018
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_count_additive",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.018017232631627952,
+      "cross_entropy": 0.5156139860008926
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.022549515930141394,
+      "cross_entropy": 0.5855892667656621
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "PC3_count_additive",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.023750890067619886,
+      "cross_entropy": 0.4225284945181887
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03408907642909744,
+      "cross_entropy": 0.47496472586534155
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "count_only",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.029145923013943545,
+      "cross_entropy": 0.4963941157637843
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04252547377929896,
+      "cross_entropy": 0.5776922342603894
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "count_only",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.024774368222885715,
+      "cross_entropy": 0.5366701969591574
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03603804288522791,
+      "cross_entropy": 0.6329100927967295
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "count_only",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03351747780500139,
+      "cross_entropy": 0.45611803456841127
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04901290467337001,
+      "cross_entropy": 0.5224743757240492
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "pooled_mean",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.048568894969302064,
+      "cross_entropy": 0.5337288175110754
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04471134911414469,
+      "cross_entropy": 0.5618940523983843
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "pooled_mean",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02631879785526822,
+      "cross_entropy": 0.5224330036287864
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.020251864932656665,
+      "cross_entropy": 0.5600507162374335
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "pooled_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.0708189920833359,
+      "cross_entropy": 0.5450246313933643
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.06917083329563271,
+      "cross_entropy": 0.563737388559335
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "task_family_mean",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.048568894969302064,
+      "cross_entropy": 0.5337288175110754
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04471134911414469,
+      "cross_entropy": 0.5618940523983843
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "task_family_mean",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02631879785526822,
+      "cross_entropy": 0.5224330036287864
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.020251864932656665,
+      "cross_entropy": 0.5600507162374335
+    }
+  },
+  {
+    "axis": "joint_families_larger",
+    "predictor": "task_family_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.0708189920833359,
+      "cross_entropy": 0.5450246313933643
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.06917083329563271,
+      "cross_entropy": 0.563737388559335
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.0307350392138018,
+      "cross_entropy": 0.48202790408215435
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.033906610021788755,
+      "cross_entropy": 0.5291970258219615
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.023465461758885767,
+      "cross_entropy": 0.5054100457463705
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.020206214783688576,
+      "cross_entropy": 0.5525248814006322
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.038004616668717836,
+      "cross_entropy": 0.4586457624179382
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.047607005259888945,
+      "cross_entropy": 0.5058691702432908
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03072203476288442,
+      "cross_entropy": 0.48263290494491456
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03436755233324385,
+      "cross_entropy": 0.5308751641339688
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.022824613335845748,
+      "cross_entropy": 0.5047770619441236
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.020291988547488767,
+      "cross_entropy": 0.5534109846572279
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03861945618992309,
+      "cross_entropy": 0.4604887479457056
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04844311611899894,
+      "cross_entropy": 0.5083393436107096
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.021717539271946935,
+      "cross_entropy": 0.4614281818194718
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.02501519405357503,
+      "cross_entropy": 0.5093835402269276
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.017382975110758838,
+      "cross_entropy": 0.4930547393420532
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.015315093757002792,
+      "cross_entropy": 0.5435473704421794
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.026052103433135028,
+      "cross_entropy": 0.42980162429689023
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.034715294350147266,
+      "cross_entropy": 0.47521971001167557
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.019531846108125295,
+      "cross_entropy": 0.45884078849010357
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.02782776249035394,
+      "cross_entropy": 0.522065006411218
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.013462582907461473,
+      "cross_entropy": 0.49084499835978707
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.017328041627044714,
+      "cross_entropy": 0.5583421853361885
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.025601109308789116,
+      "cross_entropy": 0.42683657862041996
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03832748335366318,
+      "cross_entropy": 0.48578782748624744
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.01787256217139643,
+      "cross_entropy": 0.45528959491588045
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.024075510035100826,
+      "cross_entropy": 0.5126067274206514
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.013186329172542085,
+      "cross_entropy": 0.4918805452096652
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.014897625824491865,
+      "cross_entropy": 0.5532874280259635
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02255879517025077,
+      "cross_entropy": 0.4186986446220958
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03325339424570979,
+      "cross_entropy": 0.47192602681533913
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "count_only",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.027856102058290935,
+      "cross_entropy": 0.48941719507653897
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.041185667680633045,
+      "cross_entropy": 0.5699079695584659
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "count_only",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.021229055009970466,
+      "cross_entropy": 0.5181946476763938
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.030867238833302463,
+      "cross_entropy": 0.6060518677817062
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "count_only",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.034483149106611405,
+      "cross_entropy": 0.4606397424766842
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05150409652796364,
+      "cross_entropy": 0.5337640713352256
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "pooled_mean",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04458444108348235,
+      "cross_entropy": 0.5252469776028068
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.041373222073813234,
+      "cross_entropy": 0.5546749887929906
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "pooled_mean",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.032043652382458696,
+      "cross_entropy": 0.5357682230819848
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.023627253360951974,
+      "cross_entropy": 0.5678894602428735
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "pooled_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.05712522978450601,
+      "cross_entropy": 0.5147257321236287
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05911919078667449,
+      "cross_entropy": 0.5414605173431077
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "task_family_mean",
+    "task_family": "all",
+    "cells": 146,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.044660647790479416,
+      "cross_entropy": 0.5249120000153132
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.041220076029302596,
+      "cross_entropy": 0.5539590719786405
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "task_family_mean",
+    "task_family": "logical_deduction",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04107106781511678,
+      "cross_entropy": 0.5558691263086545
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.02991925252894604,
+      "cross_entropy": 0.581894686959907
+    }
+  },
+  {
+    "axis": "larger_target",
+    "predictor": "task_family_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 73,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.048250227765842056,
+      "cross_entropy": 0.4939548737219719
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.052520899529659146,
+      "cross_entropy": 0.5260234569973745
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC1",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03201187633349835,
+      "cross_entropy": 0.5686801033472818
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03869849920445575,
+      "cross_entropy": 0.6085552667718468
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC1",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.032441776619079335,
+      "cross_entropy": 0.5988084334321725
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.036947787827245095,
+      "cross_entropy": 0.6420203654450787
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC1",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.031581976047917355,
+      "cross_entropy": 0.5385517732623913
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04044921058166641,
+      "cross_entropy": 0.575090168098615
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03301119611508121,
+      "cross_entropy": 0.5728169240149159
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.040167778059601436,
+      "cross_entropy": 0.6140310958833338
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03280919486036962,
+      "cross_entropy": 0.6017500467801177
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.037717840802537844,
+      "cross_entropy": 0.6461565684195845
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03321319736979279,
+      "cross_entropy": 0.5438838012497144
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.042617715316665014,
+      "cross_entropy": 0.5819056233470834
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.027029377069501422,
+      "cross_entropy": 0.5542075274001831
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.032853744071885835,
+      "cross_entropy": 0.5919584395183239
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02571164719933388,
+      "cross_entropy": 0.5794456712352146
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0288538509947217,
+      "cross_entropy": 0.6194546601288664
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.028347106939668965,
+      "cross_entropy": 0.5289693835651514
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.036853637149049975,
+      "cross_entropy": 0.5644622189077815
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.023755636401869992,
+      "cross_entropy": 0.5493236140302669
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.030075477081825043,
+      "cross_entropy": 0.5904267166320646
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.019422317535960607,
+      "cross_entropy": 0.5706532188264873
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.021857954898817932,
+      "cross_entropy": 0.6113971382051594
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02808895526777938,
+      "cross_entropy": 0.5279940092340466
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03829299926483215,
+      "cross_entropy": 0.5694562950589701
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02343053941190265,
+      "cross_entropy": 0.5485823583805074
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.02971848165288647,
+      "cross_entropy": 0.5894805115048802
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.019385785772263082,
+      "cross_entropy": 0.5706852301918928
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.022017654129475723,
+      "cross_entropy": 0.6116670931016989
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02747529305154222,
+      "cross_entropy": 0.526479486569122
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03741930917629721,
+      "cross_entropy": 0.5672939299080617
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "count_only",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03712787618103485,
+      "cross_entropy": 0.5828002911712372
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.049110719613756196,
+      "cross_entropy": 0.6382518294663517
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "count_only",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03624212791609487,
+      "cross_entropy": 0.6096106664226464
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.047799257604871706,
+      "cross_entropy": 0.6725348897460451
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "count_only",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03801362444597483,
+      "cross_entropy": 0.5559899159198282
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05042218162264069,
+      "cross_entropy": 0.6039687691866585
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "pooled_mean",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04274917262494631,
+      "cross_entropy": 0.59398491616284
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.051014144321827826,
+      "cross_entropy": 0.6357271971322296
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "pooled_mean",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04167567315186055,
+      "cross_entropy": 0.6185325496755125
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.049821753634322764,
+      "cross_entropy": 0.6680178231019844
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "pooled_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04382267209803209,
+      "cross_entropy": 0.5694372826501674
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.052206535009332866,
+      "cross_entropy": 0.6034365711624746
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "task_family_mean",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.042245087931594816,
+      "cross_entropy": 0.5927198807428177
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05011834217530518,
+      "cross_entropy": 0.6336674569209858
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "task_family_mean",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.041420929394086634,
+      "cross_entropy": 0.6176570144456848
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0467223229943348,
+      "cross_entropy": 0.6602586311647465
+    }
+  },
+  {
+    "axis": "model_family",
+    "predictor": "task_family_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.043069246469102984,
+      "cross_entropy": 0.5677827470399507
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.053514361356275596,
+      "cross_entropy": 0.6070762826772251
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC1",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03416378006182706,
+      "cross_entropy": 0.5755863001380838
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0416504710244083,
+      "cross_entropy": 0.6171371774629268
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC1",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03800226597142371,
+      "cross_entropy": 0.6169366509113907
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.045170102125775664,
+      "cross_entropy": 0.6657776974914211
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC1",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.030325294152230408,
+      "cross_entropy": 0.5342359493647768
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03813083992304095,
+      "cross_entropy": 0.5684966574344326
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03552437737879135,
+      "cross_entropy": 0.5801459430958261
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.043359451241247335,
+      "cross_entropy": 0.6227055626465727
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03802367065697294,
+      "cross_entropy": 0.6193608402218251
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04430185529446307,
+      "cross_entropy": 0.6663331261120639
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.033025084100609746,
+      "cross_entropy": 0.5409310459698271
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04241704718803161,
+      "cross_entropy": 0.5790779991810815
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.026641064644494592,
+      "cross_entropy": 0.5539605754015793
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03343862267341639,
+      "cross_entropy": 0.5941212883863352
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.026385443872420228,
+      "cross_entropy": 0.5817674134719535
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03266862551897439,
+      "cross_entropy": 0.6288723705005964
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02689668541656896,
+      "cross_entropy": 0.526153737331205
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.034208619827858375,
+      "cross_entropy": 0.5593702062720739
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.027664421330656185,
+      "cross_entropy": 0.5598781466190035
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03509976412609936,
+      "cross_entropy": 0.6035493381289212
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02494629332866038,
+      "cross_entropy": 0.5878400147057052
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.029024920780465018,
+      "cross_entropy": 0.6319116455669125
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.030382549332651995,
+      "cross_entropy": 0.5319162785323018
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0411746074717337,
+      "cross_entropy": 0.5751870306909299
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.02599523461274476,
+      "cross_entropy": 0.5555735711973705
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.03298974931211085,
+      "cross_entropy": 0.5980889469981066
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.023623159554813023,
+      "cross_entropy": 0.5850399336486338
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.027618224302560595,
+      "cross_entropy": 0.6290608183245325
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.028367309670676504,
+      "cross_entropy": 0.5261072087461072
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0383612743216611,
+      "cross_entropy": 0.5671170756716805
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "count_only",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.03947151726085802,
+      "cross_entropy": 0.5895518483808017
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05206098201939187,
+      "cross_entropy": 0.6469171713633334
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "count_only",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04214901314069693,
+      "cross_entropy": 0.6285518028893196
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05795452836345873,
+      "cross_entropy": 0.7042254198111646
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "count_only",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.0367940213810191,
+      "cross_entropy": 0.550551893872284
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.04616743567532501,
+      "cross_entropy": 0.5896089229155022
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "pooled_mean",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.043089631837977205,
+      "cross_entropy": 0.5948658906864603
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05192247337350024,
+      "cross_entropy": 0.6381714276500394
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "pooled_mean",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04202170502018151,
+      "cross_entropy": 0.6195785811969701
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05295219923131069,
+      "cross_entropy": 0.676205474691104
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "pooled_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04415755865577289,
+      "cross_entropy": 0.5701532001759505
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0508927475156898,
+      "cross_entropy": 0.6001373806089748
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "task_family_mean",
+    "task_family": "all",
+    "cells": 438,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.043089631837977205,
+      "cross_entropy": 0.5948658906864603
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05192247337350024,
+      "cross_entropy": 0.6381714276500394
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "task_family_mean",
+    "task_family": "logical_deduction",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04202170502018151,
+      "cross_entropy": 0.6195785811969701
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.05295219923131069,
+      "cross_entropy": 0.676205474691104
+    }
+  },
+  {
+    "axis": "target_family",
+    "predictor": "task_family_mean",
+    "task_family": "tracking_shuffled_objects",
+    "cells": 219,
+    "model_families": 20,
+    "equal_cell": {
+      "aggregate_rate_mse": 0.04415755865577289,
+      "cross_entropy": 0.5701532001759505
+    },
+    "equal_family": {
+      "aggregate_rate_mse": 0.0508927475156898,
+      "cross_entropy": 0.6001373806089748
+    }
+  }
+]

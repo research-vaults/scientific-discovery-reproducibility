@@ -1,0 +1,72 @@
+{
+  "kind": "exact stipulated scenario, not fitted or calibrated",
+  "profiles_compute_data_feedback": {
+    "A": [
+      4,
+      1,
+      0.5
+    ],
+    "B": [
+      2,
+      4,
+      0.5
+    ],
+    "C": [
+      2,
+      2,
+      2
+    ]
+  },
+  "arbitrary_time_origin": 0,
+  "compute_doubling_years": 2,
+  "informative_data_doubling_years": 4,
+  "fixed_completion_deadline_years": 1,
+  "alternative_feedback_halving_years": 6,
+  "crossings": [
+    {
+      "task": "A",
+      "compute_doubling": 2.0,
+      "data_doubling": 4.0,
+      "feedback_halving": null,
+      "years_until_first_feasible_start": 4
+    },
+    {
+      "task": "B",
+      "compute_doubling": 2.0,
+      "data_doubling": 4.0,
+      "feedback_halving": null,
+      "years_until_first_feasible_start": 8
+    },
+    {
+      "task": "C",
+      "compute_doubling": 2.0,
+      "data_doubling": 4.0,
+      "feedback_halving": null,
+      "years_until_first_feasible_start": null
+    },
+    {
+      "task": "C",
+      "compute_doubling": 2.0,
+      "data_doubling": 4.0,
+      "feedback_halving": 6.0,
+      "years_until_first_feasible_start": 6
+    },
+    {
+      "task": "B",
+      "compute_doubling": 1.0,
+      "data_doubling": 4.0,
+      "feedback_halving": null,
+      "years_until_first_feasible_start": 8
+    },
+    {
+      "task": "B",
+      "compute_doubling": 2.0,
+      "data_doubling": 2.0,
+      "feedback_halving": null,
+      "years_until_first_feasible_start": 4
+    }
+  ],
+  "all_analytic_and_boundary_checks_pass": true,
+  "token_space_bits": 17609.640474436812,
+  "empirical_claim": false
+}

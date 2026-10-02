@@ -1,0 +1,13 @@
+{
+  "original_predictions_checked": 6600,
+  "maximum_prediction_difference": 1.0208294209945734e-09,
+  "label_invariance_checks": 36,
+  "traces": 550,
+  "prediction_records": 26400,
+  "quantiles": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "source_hashes_verified": 11
+}

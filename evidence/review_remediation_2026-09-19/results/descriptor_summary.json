@@ -1,0 +1,177 @@
+{
+  "models": 73,
+  "model_families": 20,
+  "task_families": 2,
+  "tasks": 6,
+  "observed_cells": 438,
+  "results": [
+    {
+      "axis": "larger_target",
+      "predictor": "PC1",
+      "cells": 146,
+      "aggregate_rate_mse": 0.030735039213801805,
+      "cross_entropy": 0.4820279040821544
+    },
+    {
+      "axis": "larger_target",
+      "predictor": "PC3",
+      "cells": 146,
+      "aggregate_rate_mse": 0.030722034762884425,
+      "cross_entropy": 0.48263290494491456
+    },
+    {
+      "axis": "larger_target",
+      "predictor": "PC3_chance_floor",
+      "cells": 146,
+      "aggregate_rate_mse": 0.021717539271946935,
+      "cross_entropy": 0.4614281818194718
+    },
+    {
+      "axis": "larger_target",
+      "predictor": "PC3_count",
+      "cells": 146,
+      "aggregate_rate_mse": 0.019531846108125292,
+      "cross_entropy": 0.45884078849010357
+    },
+    {
+      "axis": "larger_target",
+      "predictor": "PC3_count_additive",
+      "cells": 146,
+      "aggregate_rate_mse": 0.01787256217139642,
+      "cross_entropy": 0.45528959491588045
+    },
+    {
+      "axis": "larger_target",
+      "predictor": "count_only",
+      "cells": 146,
+      "aggregate_rate_mse": 0.02785610205829093,
+      "cross_entropy": 0.4894171950765389
+    },
+    {
+      "axis": "larger_target",
+      "predictor": "pooled_mean",
+      "cells": 146,
+      "aggregate_rate_mse": 0.04458444108348236,
+      "cross_entropy": 0.5252469776028069
+    },
+    {
+      "axis": "larger_target",
+      "predictor": "task_family_mean",
+      "cells": 146,
+      "aggregate_rate_mse": 0.044660647790479416,
+      "cross_entropy": 0.5249120000153132
+    },
+    {
+      "axis": "model_family",
+      "predictor": "PC1",
+      "cells": 438,
+      "aggregate_rate_mse": 0.03201187633349835,
+      "cross_entropy": 0.5686801033472818
+    },
+    {
+      "axis": "model_family",
+      "predictor": "PC3",
+      "cells": 438,
+      "aggregate_rate_mse": 0.03301119611508121,
+      "cross_entropy": 0.5728169240149159
+    },
+    {
+      "axis": "model_family",
+      "predictor": "PC3_chance_floor",
+      "cells": 438,
+      "aggregate_rate_mse": 0.027029377069501422,
+      "cross_entropy": 0.554207527400183
+    },
+    {
+      "axis": "model_family",
+      "predictor": "PC3_count",
+      "cells": 438,
+      "aggregate_rate_mse": 0.02375563640186999,
+      "cross_entropy": 0.5493236140302669
+    },
+    {
+      "axis": "model_family",
+      "predictor": "PC3_count_additive",
+      "cells": 438,
+      "aggregate_rate_mse": 0.023430539411902644,
+      "cross_entropy": 0.5485823583805074
+    },
+    {
+      "axis": "model_family",
+      "predictor": "count_only",
+      "cells": 438,
+      "aggregate_rate_mse": 0.03712787618103485,
+      "cross_entropy": 0.5828002911712372
+    },
+    {
+      "axis": "model_family",
+      "predictor": "pooled_mean",
+      "cells": 438,
+      "aggregate_rate_mse": 0.04274917262494631,
+      "cross_entropy": 0.5939849161628401
+    },
+    {
+      "axis": "model_family",
+      "predictor": "task_family_mean",
+      "cells": 438,
+      "aggregate_rate_mse": 0.042245087931594816,
+      "cross_entropy": 0.5927198807428177
+    },
+    {
+      "axis": "target_family",
+      "predictor": "PC1",
+      "cells": 438,
+      "aggregate_rate_mse": 0.03416378006182706,
+      "cross_entropy": 0.5755863001380839
+    },
+    {
+      "axis": "target_family",
+      "predictor": "PC3",
+      "cells": 438,
+      "aggregate_rate_mse": 0.03552437737879134,
+      "cross_entropy": 0.5801459430958261
+    },
+    {
+      "axis": "target_family",
+      "predictor": "PC3_chance_floor",
+      "cells": 438,
+      "aggregate_rate_mse": 0.026641064644494596,
+      "cross_entropy": 0.5539605754015793
+    },
+    {
+      "axis": "target_family",
+      "predictor": "PC3_count",
+      "cells": 438,
+      "aggregate_rate_mse": 0.02766442133065618,
+      "cross_entropy": 0.5598781466190035
+    },
+    {
+      "axis": "target_family",
+      "predictor": "PC3_count_additive",
+      "cells": 438,
+      "aggregate_rate_mse": 0.02599523461274476,
+      "cross_entropy": 0.5555735711973705
+    },
+    {
+      "axis": "target_family",
+      "predictor": "count_only",
+      "cells": 438,
+      "aggregate_rate_mse": 0.03947151726085803,
+      "cross_entropy": 0.5895518483808017
+    },
+    {
+      "axis": "target_family",
+      "predictor": "pooled_mean",
+      "cells": 438,
+      "aggregate_rate_mse": 0.043089631837977205,
+      "cross_entropy": 0.5948658906864603
+    },
+    {
+      "axis": "target_family",
+      "predictor": "task_family_mean",
+      "cells": 438,
+      "aggregate_rate_mse": 0.043089631837977205,
+      "cross_entropy": 0.5948658906864603
+    }
+  ]
+}

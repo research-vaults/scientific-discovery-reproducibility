@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "protocol": "C1",
+  "enumerated_designs": 40,
+  "additional_random_matrix_checks": 240,
+  "target_controls": 14,
+  "dimension_range": [
+    1,
+    8
+  ],
+  "random_seed": 20260915,
+  "LLM_runs": 0,
+  "scope": "Exact arithmetic illustration, not empirical model performance"
+}

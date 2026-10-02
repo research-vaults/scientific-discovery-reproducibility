@@ -1,0 +1,22 @@
+{
+  "kind": "exact constructed illustration",
+  "baseline": [
+    100,
+    100
+  ],
+  "at_x10": [
+    19,
+    91
+  ],
+  "speedup_x10": [
+    5.2631578947368425,
+    1.098901098901099
+  ],
+  "elasticity_at_baseline": [
+    0.9,
+    0.1
+  ],
+  "horizon_A": 9,
+  "workflow_B_horizon": "infinity on this path",
+  "empirical_claim": false
+}

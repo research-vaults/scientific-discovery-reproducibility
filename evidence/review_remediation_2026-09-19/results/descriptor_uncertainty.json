@@ -1,0 +1,152 @@
+[
+  {
+    "axis": "larger_target",
+    "comparator": "PC1",
+    "delta_mse": -0.011203193105676515,
+    "cluster_percentile95": [
+      -0.02928507582437773,
+      0.005198190257604247
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "larger_target",
+    "comparator": "PC3",
+    "delta_mse": -0.011190188654759133,
+    "cluster_percentile95": [
+      -0.026416832462968397,
+      0.005225585971567251
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "larger_target",
+    "comparator": "count_only",
+    "delta_mse": -0.00832425595016564,
+    "cluster_percentile95": [
+      -0.0149016309547925,
+      -0.003538701505784925
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "larger_target",
+    "comparator": "PC3_count_additive",
+    "delta_mse": 0.001659283936728866,
+    "cluster_percentile95": [
+      -2.716356349245959e-05,
+      0.004428744468648948
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "larger_target",
+    "comparator": "PC3_chance_floor",
+    "delta_mse": -0.002185693163821649,
+    "cluster_percentile95": [
+      -0.011469878012966016,
+      0.0071478209876141225
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "model_family",
+    "comparator": "PC1",
+    "delta_mse": -0.008256239931628353,
+    "cluster_percentile95": [
+      -0.010951487407275534,
+      -0.005935388504701502
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "model_family",
+    "comparator": "PC3",
+    "delta_mse": -0.009255559713211214,
+    "cluster_percentile95": [
+      -0.011799702071602813,
+      -0.0069117622550600895
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "model_family",
+    "comparator": "count_only",
+    "delta_mse": -0.013372239779164855,
+    "cluster_percentile95": [
+      -0.02320318825264681,
+      -0.004426396370248355
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "model_family",
+    "comparator": "PC3_count_additive",
+    "delta_mse": 0.0003250969899673461,
+    "cluster_percentile95": [
+      -5.86665337293439e-06,
+      0.0006781869994321072
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "model_family",
+    "comparator": "PC3_chance_floor",
+    "delta_mse": -0.0032737406676314313,
+    "cluster_percentile95": [
+      -0.007926680650988418,
+      0.0020940248389313193
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "target_family",
+    "comparator": "PC1",
+    "delta_mse": -0.006499358731170874,
+    "cluster_percentile95": [
+      -0.008638199195716987,
+      -0.004224527911219821
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "target_family",
+    "comparator": "PC3",
+    "delta_mse": -0.00785995604813516,
+    "cluster_percentile95": [
+      -0.009629558471194405,
+      -0.006075021047629003
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "target_family",
+    "comparator": "count_only",
+    "delta_mse": -0.011807095930201838,
+    "cluster_percentile95": [
+      -0.02040135345421067,
+      -0.004961841586466946
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "target_family",
+    "comparator": "PC3_count_additive",
+    "delta_mse": 0.001669186717911424,
+    "cluster_percentile95": [
+      0.0005656614065222982,
+      0.0030927686397449823
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  },
+  {
+    "axis": "target_family",
+    "comparator": "PC3_chance_floor",
+    "delta_mse": 0.0010233566861615896,
+    "cluster_percentile95": [
+      -0.0024044462139397728,
+      0.0056482703420504534
+    ],
+    "caveat": "resamples model families of fixed out-of-fold predictions; two target families do not establish target-population uncertainty"
+  }
+]

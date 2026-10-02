@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrrr}
+\toprule
+& \multicolumn{3}{c}{Separate holdouts} & \multicolumn{2}{c}{Joint holdout}\\
+Predictor & Task & Model & Size & Cells & Families\\
+\midrule
+Pooled mean & 0.0431 & 0.0427 & 0.0446 & 0.0446 & 0.0532\\
+Task-family mean & 0.0431 & 0.0422 & 0.0447 & 0.0446 & 0.0532\\
+PC1 & 0.0342 & 0.0320 & 0.0307 & 0.0357 & 0.0432\\
+PC1--3 & 0.0355 & 0.0330 & 0.0307 & 0.0379 & 0.0459\\
+Count only$^\dagger$ & 0.0395 & 0.0371 & 0.0279 & 0.0410 & 0.0535\\
+PC1--3 + count$^\dagger$ & 0.0260 & 0.0234 & 0.0179 & 0.0285 & 0.0356\\
+PC1--3 + chance floor$^\dagger$ & 0.0266 & 0.0270 & 0.0217 & 0.0287 & 0.0350\\
+PC1--3 + count interactions & 0.0277 & 0.0238 & 0.0195 & 0.0301 & 0.0377\\
+\bottomrule
+\end{tabular}

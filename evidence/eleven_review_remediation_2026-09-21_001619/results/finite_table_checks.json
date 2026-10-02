@@ -1,0 +1,191 @@
+{
+  "tables": 11,
+  "source_families": 4,
+  "campaigns": 550,
+  "prefix_invariance_checks": 11,
+  "selection_cost_per_observation": 1,
+  "forecast_rows": 2200,
+  "prediction_rows": 8800,
+  "calibration": [
+    {
+      "pilot": 5,
+      "budget": 20,
+      "predictor": "best",
+      "bin_lower": 0.6000000000000001,
+      "n": 1,
+      "mean_prediction": 0.7733819888559844,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 5,
+      "budget": 20,
+      "predictor": "best",
+      "bin_lower": 0.8,
+      "n": 549,
+      "mean_prediction": 0.9796848485391025,
+      "observed_rate": 0.9890710382513661
+    },
+    {
+      "pilot": 5,
+      "budget": 20,
+      "predictor": "count",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9790705771383181,
+      "observed_rate": 0.9890909090909091
+    },
+    {
+      "pilot": 5,
+      "budget": 20,
+      "predictor": "no_target",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9790705771383389,
+      "observed_rate": 0.9890909090909091
+    },
+    {
+      "pilot": 5,
+      "budget": 20,
+      "predictor": "pilot_summary",
+      "bin_lower": 0.6000000000000001,
+      "n": 4,
+      "mean_prediction": 0.7612504662609924,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 5,
+      "budget": 20,
+      "predictor": "pilot_summary",
+      "bin_lower": 0.8,
+      "n": 546,
+      "mean_prediction": 0.977470743924401,
+      "observed_rate": 0.989010989010989
+    },
+    {
+      "pilot": 5,
+      "budget": 40,
+      "predictor": "best",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9989644773887568,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 5,
+      "budget": 40,
+      "predictor": "count",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9989302374438628,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 5,
+      "budget": 40,
+      "predictor": "no_target",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9989302374438542,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 5,
+      "budget": 40,
+      "predictor": "pilot_summary",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9987840159729872,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 10,
+      "budget": 20,
+      "predictor": "best",
+      "bin_lower": 0.6000000000000001,
+      "n": 1,
+      "mean_prediction": 0.7865121336793759,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 10,
+      "budget": 20,
+      "predictor": "best",
+      "bin_lower": 0.8,
+      "n": 549,
+      "mean_prediction": 0.9839383773419281,
+      "observed_rate": 0.9890710382513661
+    },
+    {
+      "pilot": 10,
+      "budget": 20,
+      "predictor": "count",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9782633594437316,
+      "observed_rate": 0.9890909090909091
+    },
+    {
+      "pilot": 10,
+      "budget": 20,
+      "predictor": "no_target",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9782633594437165,
+      "observed_rate": 0.9890909090909091
+    },
+    {
+      "pilot": 10,
+      "budget": 20,
+      "predictor": "pilot_summary",
+      "bin_lower": 0.6000000000000001,
+      "n": 1,
+      "mean_prediction": 0.7650791425407985,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 10,
+      "budget": 20,
+      "predictor": "pilot_summary",
+      "bin_lower": 0.8,
+      "n": 549,
+      "mean_prediction": 0.9820068195386873,
+      "observed_rate": 0.9890710382513661
+    },
+    {
+      "pilot": 10,
+      "budget": 40,
+      "predictor": "best",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9991585335575279,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 10,
+      "budget": 40,
+      "predictor": "count",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.998829510139906,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 10,
+      "budget": 40,
+      "predictor": "no_target",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9988295101398965,
+      "observed_rate": 1.0
+    },
+    {
+      "pilot": 10,
+      "budget": 40,
+      "predictor": "pilot_summary",
+      "bin_lower": 0.8,
+      "n": 550,
+      "mean_prediction": 0.9990530452671155,
+      "observed_rate": 1.0
+    }
+  ]
+}

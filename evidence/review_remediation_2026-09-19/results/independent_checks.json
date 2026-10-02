@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "test": "held-out HumanEval Llama-2 eigensystem reconstruction",
+      "max_abs_error": 1.942890293094024e-16,
+      "rows": 3
+    },
+    {
+      "test": "all hidden coefficients and candidate outputs",
+      "bit_widths": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "PASS"
+    },
+    {
+      "test": "fixed-pilot product sum vs sequential-state implementation",
+      "max_abs_error": 6.5503158452884236e-15
+    },
+    {
+      "test": "reliability caps and information-value inequalities",
+      "status": "PASS"
+    }
+  ]
+}

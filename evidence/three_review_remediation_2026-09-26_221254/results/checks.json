@@ -1,0 +1,10 @@
+{
+  "source_hashes_verified": 11,
+  "original_predictions_checked": 19800,
+  "maximum_prediction_difference": 0.0,
+  "test_label_invariance_checks": 180,
+  "rows": 6600,
+  "prediction_records": 59400,
+  "nested_outcome_pairs_checked": 29700,
+  "brier_decomposition_verified": true
+}

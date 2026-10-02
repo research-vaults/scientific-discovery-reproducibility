@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "reconstructed_score_cells": 480,
+  "max_abs_difference": 2.220446049250313e-16,
+  "method": "csv/math.fsum reconstruction, separate from pandas/numpy analysis"
+}

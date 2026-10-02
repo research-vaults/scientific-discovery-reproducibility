@@ -1,0 +1,16 @@
+{
+  "version": "2026-10-02",
+  "manuscript_revision": "2026-09-30 development source, not an accepted-attachment identity claim",
+  "source_pdf_sha256": "8bb0e1bf7a96f8eaa52a98291eb5bb1648c14fc1ccd8f66b5bb7bdceed8bbd05",
+  "transforms": [
+    "check_eleven_review.py: omit internal consolidation-plan hash check; scientific contract/source checks retained",
+    "verify_horizon_specification.py: omit internal historical review hash check; all scientific checks unchanged"
+  ],
+  "excluded": [
+    "internal records and Git history",
+    "compiled manuscript PDF",
+    "raw chemistry inputs and raw-outcome traces",
+    "METR source YAML and raw historical-crossing output",
+    "machine-specific generated manifests"
+  ]
+}

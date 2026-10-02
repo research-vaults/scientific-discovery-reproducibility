@@ -1,0 +1,413 @@
+\appendix
+\section{Public-data prediction tests and reproduction}
+\label{app:empirical}
+The empirical question is whether source capability measurements and an observable target descriptor predict outcomes beyond simpler accounts. The analyses reuse published aggregates; they do not repeat the original model evaluations. Table~\ref{tab:routing} maps the supporting evidence to the main claims.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Supplement routing and evidence provenance.}
+\label{tab:routing}
+\begin{tabular}{P{.27\linewidth}P{.60\linewidth}}
+\toprule
+Section & Scientific role and evidence type\\
+\midrule
+\ref{app:empirical} & Archive descriptor prediction, controls and uncertainty; inherited regression/PCA tools.\\
+\ref{app:identification} & New exact recovery calculation using inherited binomial coverage.\\
+\ref{app:synthesis} & Executed finite-domain example; observation restrictions determine search cost.\\
+\ref{app:formal} & Premises and proofs for conditional capability and completion forecasts.\\
+\ref{sec:yield} & Campaign example, published-case audit and exact fixed-pilot analysis, including low power and evaluation costs.\\
+\ref{sec:related} & Prior-work comparison and the proposed scientific connections.\\
+\ref{app:finite_table} & Retrospective finite-table forecasting screen, including its negative result.\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Data, preprocessing and scoring}
+The descriptor analysis uses the pinned public ObsScaling repository \citep{ruan2024}. Source measurements are aggregate rates on MMLU, ARC-C, HellaSwag, Winograd, TruthfulQA, GSM8K and XWinograd. The analysis joins complete source observations to the six BBH targets described below; missingness is not assumed random. The archive does not supply a common set of item-level outcomes or verified per-model release dates.
+
+Within each training split, center and scale source metrics, extract three principal components (PCs) by singular-value decomposition, orient PC1 toward the standardized source mean, and scale PC coordinates to their training standard deviations. Fit this transformation on unique training models and apply it to the model--task rows. Test observations never determine the transformation. The source index is an observational predictor, not an exact reproduction of Ruan et al.'s full method. Published families can share ancestry, and all models share benchmark items; grouping by family cannot fully represent either dependence.
+
+For observed aggregate rate $y_i$ and prediction $\widehat p_i$, rate-MSE is $N^{-1}\sum_i(y_i-\widehat p_i)^2$ and fractional Bernoulli cross-entropy is $-N^{-1}\sum_i[y_i\log\widehat p_i+(1-y_i)\log(1-\widehat p_i)]$. Predictions are clipped to $[10^{-8},1-10^{-8}]$ for scoring. Equal-cell scoring gives each model--task cell equal weight; the joint holdouts also report equal-family scores. Rate-MSE is not item-level Brier score: within-benchmark item variance and sampling uncertainty are absent. These aggregate losses do not certify calibration in a new population.
+
+\subsection{Descriptor design, rivals and interpretation}
+BBH logical deduction and shuffled-object tracking each have 3/5/7-object tasks. We select the archive's three-shot chain-of-thought, strict-match rate columns and join model identifiers to the seven non-HumanEval source scores. The resulting panel has 73 models in 20 published families, each with six tasks: 438 observed cells. The groups are BLOOM, CodeLlama, DeepSeek-Coder, Falcon, GPT-Neo/J, Gemma, Llama, Llama-2, MPT, Mistral, Mixtral, OPT, Phi, Pythia, Qwen, Qwen1.5, StarCoder, StarCoder2, XGLM and Yi. Object count comes directly from task definitions. We did not label task difficulty from the outcomes or infer workflow depth from model performance.
+
+For shared PC models, regress target logits, with rates clipped to $[.005,.995]$, on one or three PCs using ridge penalty 1 and an unpenalized intercept. The augmented model adds standardized log object count and its three interactions with PCs. Thus coefficients depend on a shared target descriptor without task-specific fitted intercepts. Each fit derives the PCA from unique training models, then applies it to the model--task rows. Count normalization also uses training rows. Primary tests hold out one entire BBH task family at a time or one published model family at a time. An additional extrapolation test trains at 3/5 objects and tests all 7-object cells. Task-family holdout permits source measurements of those models; it tests target generalization, not new models simultaneously.
+
+After the primary result, we added explicit exploratory rivals: count alone; PC1--3 with an additive count term; and $p=1/n+(1-1/n)\sigma(\beta_0+\boldsymbol\beta^\top\mathbf z)$, a chance-floor link. The last fits logits of clipped chance-adjusted rates and uses the same ridge penalty. It assumes the multiple-choice $1/n$ chance rate is a floor, although observed rates can fall below it. These controls distinguish a target-size effect from a need for capability--count interactions. The contract amendment identifies them as post-result tests, not independent confirmation. Coefficients and transformations use training data only; the ridge penalty is fixed. 
+
+\begin{table}[htbp]\centering\small
+\caption{All descriptor-test scores, including secondary rivals. The target-family and model-family axes each contain 438 out-of-fold cells; the seven-object test contains 146.}
+\input{figures/descriptor_full_table}
+\end{table}
+
+\input{figures/descriptor_rival_text}
+\input{figures/descriptor_uncertainty_text}
+These descriptive intervals omit refitting variability and uncertainty over new task families; overlapping training folds also induce dependence. With only two task families, we make no population-level significance or equivalence claim. Every model-level prediction, task-specific score, calibration-bin summary and negative comparison is retained.
+
+\subsection{Simultaneously unseen model and task families}
+\label{app:joint}
+Separate holdouts do not test whether the relation transports when both families are new. After the preceding results, we froze a follow-up challenge using the same archive and all eight predictors, with no tuning. For each of the 20 model families and two task families, remove every row belonging to either held-out family from fitting; score only their intersection. These 40 folds cover each of the 438 cells once per predictor. A second set of 40 folds also restricts training to 3/5 objects and tests only seven-object intersections, covering 146 cells. PCA uses unique training models, and all transformations and regressions use training rows. Source measurements of test models remain required inputs.
+
+Report both equal-cell losses and equal-family losses, the latter averaging each published model family's mean loss with weight $1/20$. This checks whether unequal family sizes drive the conclusion; it does not make related training lineages independent. The code verifies disjoint training/test model and task families, unique test cells, excluded size, finite predictions and exact invariance to changing held-out target labels (640 predictor/fold checks).
+
+\begin{table}[htbp]\centering\small
+\caption{Follow-up joint holdouts. Lower is better; identical test cells and fixed predictors for each comparison. Equal-family scores average the 20 published model-family means. These are post-result archive challenges, not prospective or independent confirmation.}
+\label{tab:joint}
+\input{figures/joint_table}
+\end{table}
+
+\input{figures/joint_subgroup_text}
+
+Thus the descriptor gain under joint family holdout extends to both tasks, but the combined family-and-size test has a task-specific reversal. Moreover, equal-family rate-MSE favours the chance-floor predictor over additive count on joint family holdout, despite the opposite equal-cell ranking. The averaging population is part of the model-selection decision. Neither aggregate improvement licenses uniform task transport. The follow-up reuses previously inspected outcomes and cannot supply prospective or contamination-controlled confirmation.
+
+
+\subsection{Link sensitivity and full-pipeline refitting}
+\label{app:robustness}
+These sensitivity analyses were specified after inspection of the earlier archive results. They reuse the same 73 models, 20 published families and two task families; they are neither new model evaluations nor independent confirmation. All five split definitions remain unchanged. Alongside PC1--3 and additive log count, test all quadratic capability terms, probit, rate-scale ridge regression clipped to $[0,1]$, logit clipping at .001/.01, chance-floor plus count, and a free $1/n$ feature plus count. Ridge penalty remains 1, with an unpenalized intercept; transformations use training observations only. The chance-floor variants fit clipped logits of $(y-1/n)/(1-1/n)$ and transform back. Table~\ref{tab:descriptor_sensitivity} retains every predictor under the primary equal-cell loss. The artifact also contains equal-family scores and cross-entropy separately for both task families.
+
+\begin{table}[htbp]\centering\small
+\caption{Exploratory descriptor sensitivities: rate-MSE on identical cells. ``Out'' denotes exclusion from training; joint excludes both model and task families. No hyperparameter is selected on these holdouts.}
+\label{tab:descriptor_sensitivity}
+\input{figures/descriptor_sensitivity_table}
+\end{table}
+
+Additive count improves on the matched capability-only fit across the tested links and clipping choices. Quadratic capability does not remove the pooled gain; chance-floor plus count does not consistently improve on the simpler additive predictor. The free chance feature scarcely changes the count result. Since $n$ and $1/n$ are deterministically linked, none of these fits identifies whether reasoning burden or answer cardinality explains the gain. There are 211 below-floor cells out of 438: 78 in deduction and 133 in tracking. These aggregate observations diagnose a modeling restriction, not known individual-item failure probabilities.
+
+For a separate uncertainty sensitivity, draw 20 model families with replacement in each of 500 replicates (seed 20260921). Keep all rows of each drawn family and exclude all copies of the test family when fitting a joint fold. Fit source standardization and PCA on unique models within each sampled family occurrence; refit count normalization and regression on the sampled training cells. Recompute out-of-fold predictions and paired additive-minus-PC1--3 losses for both joint designs. Equal-family summaries weight each sampled family occurrence equally; equal-cell summaries weight its cells. Table~\ref{tab:refitting} reports the equal-cell percentiles; the artifact retains every draw and both weighting summaries. These percentiles describe model-family resampling of the entire fitted statistic, conditional on the two fixed task identities. They are not coverage guarantees for new target families, shared benchmark items, contamination or unobserved ancestry.
+
+\begin{table}[htbp]\centering\small
+\caption{Full-pipeline cluster-refit percentiles of additive-count minus capability-only rate-MSE; negative favors count. These differ from the earlier fixed-prediction intervals for count interactions.}
+\label{tab:refitting}
+\input{figures/descriptor_refit_table}
+\end{table}
+
+The pooled gains persist, but the larger-task deduction interval spans zero under both weightings. Its originally observed worsening remains a descriptive result, not a stable population effect. Tracking drives the joint size gain. Repeated resampling cannot supply independent scientific-target evidence.
+
+\subsection{Design choices, artifacts and remaining validation}
+The logistic link makes an additive log-odds contrast interpretable and follows the cited response-model literature. It is not preferred by a universal theory; clipping/probit checks expose sensitivity near zero. Object count is reproducible and independent of our fitted outcomes, but it is a deliberately narrow descriptor. Clopper--Pearson intervals are chosen for finite-sample binomial coverage, with conservatism reported. Stipulated costs and yields span unchanged, worse and improved methods, with all grids retained rather than selected after inspecting outcomes.
+
+The local analysis materials include the original protocol and subsequent amendments, data provenance, source-file hashes, scripts, results and manuscript sources. Running \texttt{python scripts/build\_paper.py} regenerates analyses, tables, figures and PDF without network or model calls. The raw ObsScaling tables are retained with their Apache-2.0 license. Local availability is not a claim of public release. Archive holdouts do not remove training contamination, validate scientific outcomes or establish prospective prediction. Those require the matched target and temporal programme stated in the main text.
+
+\section{Target-side identification and exact recovery}
+\label{app:identification}
+At source levels separated by known $\Delta>0$, assume fixed probabilities $p_0,p_1\in(0,1)$ obey $\operatorname{logit}p_1-\operatorname{logit}p_0=\lambda\Delta$. Independent Bernoulli sampling within each level gives marginal binomial counts. Assigning .0125 error to each of four Clopper--Pearson tails yields simultaneous coverage at least .95 by a union bound. On that event, monotonicity of logit gives Equation~\ref{eq:lambda_interval}. Cross-level dependence preserves this guarantee when both binomial marginals remain valid. Our recovery study additionally assumes independent levels to enumerate joint count probabilities.
+
+For $N\in\{25,100,500\}$, $p_0\in\{.01,.05,.2\}$, $\Delta\in\{.5,1,2\}$ and $\lambda\in\{0,.5,1\}$, set $p_1=\sigma(\operatorname{logit}p_0+\lambda\Delta)$. Sum coverage, positive-lower-bound probability and infinite-endpoint mass over all $(N+1)^2$ counts with product-binomial weights. Record median interval width and cost $2Na$. All 81 settings are retained; an independent nested-loop implementation verifies coverage at all 27 settings with $N=25$. The minimum grid coverage, 99.809\%, is conservative relative to the analytical 95\% lower bound. Zero-coupling settings are retained to check false exclusion.
+
+\begin{table}[htbp]\centering\small
+\caption{Exact recovery at coupling 1 and separation 2. Low initial success makes unbounded intervals more likely. The artifact retains all 81 settings, including zero coupling and smaller separations.}
+\input{figures/identification_table}
+\end{table}
+
+At $p_0=.05$, $\lambda=1$, $\Delta=2$, $p_1=.2800$. Median interval widths at $N=25,100,500$ are 4.26, 1.69 and .71; measurement costs are $50a,200a,1000a$. Greater separation improves information only while a common affine-logit relation and fixed protocol remain credible. No finite sample guarantees a finite interval for every possible outcome. More than two levels and held-out target observations are needed to challenge model form; between-system differences cannot isolate capability from training data or other system changes.
+
+\paragraph{Why two exact rates do not establish a finite horizon.}
+\label{app:twolevelboundary}
+Let source capability follow $z(t)=t\ge0$. Compare target log-odds $g_1(z)=-3+z$ and $g_2(z)=-3+2z/(1+z)$. At $z=0,1$, both give success probabilities $\sigma(-3)=.0474$ and $\sigma(-2)=.1192$: even exact observations cannot distinguish them. Both responses increase, but $g_2(z)=-1-2/(1+z)<-1$, so its success probability stays below $\sigma(-1)=.2689$. At $q=.8$, the first crosses at $3+\log4=4.39$ scenario-years and the second never crosses. At a withheld third level $z=2$, they instead predict $.2689$ and $.1589$. This illustrative construction shows why two-level slope estimation requires the affine-logit assumption for extrapolation. A third observation can challenge it, but does not establish the response at every future level.
+
+\section{Finite-domain synthesis and information access}
+\label{app:synthesis}
+The target is an executable program matching $f_a(x)=ax\bmod 2^n$ for every $x\in\{0,\ldots,2^n-1\}$, with odd hidden $a$ uniform over its $2^{n-1}$ values. The permitted candidates use the same program grammar. The rejection-only interface hides the target outputs and returns one bit after a complete domain comparison; it supplies no counterexample input. Distinct coefficients differ at $x=1$, so exactly one candidate is valid. Success here requires a positive verifier response; returning an untested candidate does not count. Before success, every rejected candidate only excludes itself.
+
+Write $M=2^{n-1}$. Conditional on any negative-query history, the hidden coefficient remains uniform over the unqueried candidates. Every fresh-query policy therefore encounters it at a uniformly distributed position in $1,\ldots,M$; randomized policies are mixtures with the same distribution. Success by $k$ distinct checks has probability $k/M$, giving the exact $\lceil qM\rceil$ cap and mean $(M+1)/2$. This is the standard one-positive search calculation \citep[cf.\ Example~2]{russo2013}. If an untested final guess were accepted, success could instead reach $\min\{(k+1)/M,1\}$; that changes the declared success criterion.
+
+The implementation enumerates all odd coefficients and all inputs at bit widths 2 through 8, checks that only the hidden coefficient passes, and counts all input evaluations without early exit. At $n=2,4,6,8$, candidate counts are 2, 8, 32 and 128; .9-reliability caps are 2, 8, 29 and 116, giving work 8, 128, 1856 and 29,696. For a uniform random candidate order, mean calls are $(2^{n-1}+1)/2$. With a target-output query at input 1, the coefficient is observed directly; one query plus a full check costs $1+2^n$ evaluations. These count observations and evaluations as equal units for illustration; wall-clock costs can differ.
+
+A concrete requirement profile is $(n,2^{n-1},\text{observation interface},2^n)$. Changing the interface removes the search bottleneck without changing arithmetic capability. This is an executed, restricted program-synthesis example, not a lower bound against procedures with richer specification access or an empirical LLM scaling result. Full finite-domain verification establishes exactly the specification chosen here, not an unbounded input guarantee.
+
+\section{Formal conventions and conditional forecasts}
+\label{app:formal}
+Feasible sets and conditional forecasts separate procedure randomness, uncertainty about a response model, and uncertainty about technological development. This section supplies the formal premises used in the main paper.
+
+\paragraph{Procedures and information.}
+A procedure includes model weights, inference budget, tools, shared memory, agent coordination, stopping, human assistance and the observation protocol. The information state $K$ records both initial evidence and permitted access to further observations; it is not merely a count of training examples. Equation~\ref{eq:complexityset} permits adaptive acquisition within the resource allowance. Observational data and interventional data need not be interchangeable. Feasibility describes existence in the declared procedure class, not a guarantee that an evaluator finds the best procedure. Under matched resources and access, the crossing of any admissible procedure is therefore an upper bound on the class-level capability horizon. Equality follows for a singleton class; it otherwise requires establishing the attainable envelope. The worked affine-logit scenarios use singleton classes.
+
+When unused resources are optional, $\mathcal B_Q$ is upward closed. Every procedure feasible under $\mathbf b$ remains admissible under a componentwise larger allowance. This says nothing about an individual agent's response to a larger prompt or an enforced increase in reasoning. Enlarging the procedure class by freely optional methods likewise cannot shrink the attainable set. Costs of developing or installing the new method must be included when the comparison concerns the whole research programme.
+
+\paragraph{Capability horizon and actual completion.}
+Equation~\ref{eq:horizon} is a first-passage definition along an entire system-development path. It need not be monotone if access, targets or available procedures change. The infimum need not be attained for an arbitrary path; in the worked continuous monotone examples it is attained. Reliability is evaluated within a campaign resource vector that includes its allowed duration. A threshold crossing concerns when a suitable campaign becomes possible, not when a campaign actually produces a result.
+
+A completion forecast additionally specifies launch times, stopping, resource allocation and validation duration. A system below a reliability threshold can succeed, and one above it can fail on an individual run. The conditional campaign probabilities below connect these distinct quantities without introducing a second capability measure.
+
+\paragraph{From campaign success to the first result.}
+Condition on evidence $D$ and deployed policy $\pi$. For a fixed finite ordered schedule of completion dates, let $A_j$ be failure of campaign $j$. On each reached all-failure history define $1-h_{Q,j}=\Pr(A_j\mid A_1,\ldots,A_{j-1},D,\pi)$. The chain rule gives $\Pr(A_1\cap\cdots\cap A_n\mid D,\pi)=\prod_{j=1}^n(1-h_{Q,j})$, proving Equation~\ref{eq:completionhazard} for $n$ completions by $T$. Independence is a sufficient reason for conditional and marginal campaign probabilities to coincide, not a premise of the identity. If an earlier all-failure event has probability zero, discovery has already occurred almost surely under the model and subsequent factors are immaterial. Uncertain completion schedules require averaging the full event probability over the schedule and development path. Likewise, conditional-on-parameter predictions must be averaged jointly; multiplying separately averaged success probabilities generally changes the forecast. 
+
+\subsection{Conditional horizon calculations and verification}
+\label{app:horizonproofs}
+Let $h=\operatorname{logit}q-\eta_0>0$ be the remaining log-odds gap. For positive $v,\lambda$, solving $\eta_0+\lambda vt=\operatorname{logit}q$ gives $\tau=h/(\lambda v)$. If $\lambda=0$ and initial success is below $q$, no crossing occurs. The same is true for $\lambda<0$ with positive $v$ under this particular constant-coefficient scenario. These are mathematical limits of the assumed paths, not evidence that a target can never be solved after a method or information change.
+
+For a rectangular parameter region $h\in[h_-,h_+]$, $\lambda\in[\lambda_-,\lambda_+]$ and $v\in[v_-,v_+]$, with every lower endpoint positive, monotonicity gives
+\begin{equation}
+ \frac{h_-}{\lambda_+v_+}\le\tau\le\frac{h_+}{\lambda_-v_-}.
+ \label{eq:horizoninterval}
+\end{equation}
+The rectangle specifies which parameter combinations are allowed; it does not assume probabilistic independence. If constraints couple the parameters, optimize the same expression over that region. If the region includes $\lambda=0$, it admits infinite horizon. A hard access gate opening at time $t_E$ makes success zero before $t_E$; for a monotonically increasing post-access curve, the horizon is $\max\{t_E,h/(\lambda v)\}$. The ungated and access-gated examples therefore do not have identical initial target success, as stated in Figure~\ref{fig:horizons}.
+
+The constructed nonidentification example uses three ungated models with $\lambda=1,.5,0$, identical source path, and identical target success at zero. If the evidence contains only source observations and that initial target probability, each agrees exactly with it. Their future target probabilities and crossings disagree. Positive source--target evidence at additional capability levels, appropriate priors or a structural restriction could distinguish them. Neither a theorem about universal unpredictability nor a claim about how often these worlds occur follows.
+
+\paragraph{Proof of the time-error bound.}
+Let $I$ contain $\tau$ and $\widehat\tau$, with $\ell(\tau)=\widehat\ell(\widehat\tau)=\operatorname{logit}q$. Suppose $\ell$ is differentiable on $I$ and $\ell'(t)\ge m>0$ throughout, and $|\ell(t)-\widehat\ell(t)|\le\varepsilon$ there. Then
+\[
+ m|\widehat\tau-\tau|\le|\ell(\widehat\tau)-\ell(\tau)|
+ =|\ell(\widehat\tau)-\widehat\ell(\widehat\tau)|\le\varepsilon.
+\]
+This standard inverse-sensitivity argument proves Equation~\ref{eq:timeerror}. It assumes both crossings exist in the interval. It does not follow from pointwise confidence intervals or calibration averaged over observed models. A plateau at the threshold, an unmodeled jump or a crossing outside $I$ can invalidate its premises. Uniform control can instead give a set of possible crossing times by inverting lower and upper performance bands, with simultaneous rather than pointwise coverage.
+
+\paragraph{Numerical reproduction.}
+\texttt{scripts/analyze\_capability\_horizons.py} computes the four paths, analytic and numerically solved crossings, the positive-coupling interval and time-error examples. It also checks that the ungated models have equal initial performance, that the source trajectory is identical, and that the two-world identification example cannot exceed worst-case $1/2$ accuracy. The plots show assumed functions, not fits. These scenario checks are distinct from the public-data fits in Appendix~\ref{app:empirical}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/capability_horizons.pdf}
+\caption{Constructed capability horizons, not scientific forecasts. All four scenarios share the source path $x(t)-x_0=t$. Left: target success under strong coupling ($\lambda=1$), weaker coupling ($.5$), no coupling ($0$), or strong coupling with required access unavailable until year 6. The access-gated scenario starts at zero; the other three start at $.0474$. Right: horizon sensitivity to positive $\lambda$ at $q=.8$, $v=1$ and $\eta_0=-3$. The shaded range corresponds to the stipulated bound $\lambda\in[.5,1]$, not a statistical confidence interval. A calendar interpretation requires evidence for these parameters and the growth path.}
+\label{fig:horizons}
+\end{figure}
+
+\paragraph{Capability and completion reversal.}
+For independent serial attempts of duration $d$ and success probability $p>0$ launched at $s$, the number of attempts to first success is geometric, with mean $1/p$. Expected completion is therefore $s+d/p$. In the main assay example, launching A and B at their respective availability dates gives means $\tau_A+4/.8\approx9.39$ and $\tau_B+.25/.8\approx9.09$ scenario-years. Subtracting the two means shows that B finishes earlier on average exactly when $d_A-d_B>q(\tau_B-\tau_A)$, because both deployed versions have fixed success $q$. This compares two separate deployment choices. Adding B as an optional procedure does not force an optimal policy to abandon A; the policy can retain whichever choice is preferable. The validation durations and response curves are stipulated, not measured biomedical forecasts.
+
+\section{Campaign reliability and the cost of evidence}
+\label{sec:yield}
+The following analyses connect target success probabilities to a concrete adoption decision. They show how a target-response probability enters experimental resource requirements and how uncertain that response may remain. Their stipulated parameters cannot be substituted for the source--target coefficients in the main horizon example.
+
+\subsection{When is more reasoning worth its cost?}
+Consider a deliberately simplified candidate-selection procedure. Each attempt costs $c$ units to propose a candidate and $v$ units to test it. Both are hypothetical monetary costs, not time; shared setup costs are set to zero. Let $p(c)$ be the probability that a proposed candidate meets the declared binding and cell-assay criteria after validation. The notation allows reasoning expenditure to affect yield but does not assume that it improves it. Hold the target and testing protocol fixed, and assume independent candidate outcomes with this same probability, where $0<p(c)<1$.
+
+To find at least one validated hit with probability at least $\rho$, where $0<\rho<1$, reserve enough budget for $n$ attempts. Failure on all attempts has probability $(1-p(c))^n$. Thus the smallest attempt cap and its budget are
+\begin{equation}
+ n_\rho(c)=\left\lceil\frac{\log(1-\rho)}{\log(1-p(c))}\right\rceil,
+ \qquad B_\rho(c)=n_\rho(c)(c+v).
+ \label{eq:yieldbudget}
+\end{equation}
+This standard repeated-trial calculation gives the reserved budget for this procedure; stopping after a hit can spend less. It does not estimate elapsed time or optimize over other methods.
+
+\begin{table}[htbp]
+\caption{Hypothetical choices for reaching at least 90\% probability of one validated hit. Assay cost $v=9$ in every row; outcomes are independent with constant yield. Shared activity, batch effects or adaptive selection can violate this model. Costs share arbitrary monetary units; setup is excluded here. Yields are stipulated, not estimates from cited studies.}
+\label{tab:yield}
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Procedure & Proposal cost $c$ & Hit probability $p$ & Attempts $n$ & Budget $B$\\
+\midrule
+Baseline & 1 & 0.10 & 22 & 220\\
+Cheaper proposals & 0.1 & 0.10 & 22 & 200.2\\
+Better selection & 2 & 0.20 & 11 & 121\\
+Costlier, unchanged yield & 2 & 0.10 & 22 & 242\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:yield} shows the decision. Tenfold cheaper proposals save 9\% of the campaign budget. Doubling proposal expenditure while doubling validated yield saves 45\%, because fewer assays are needed. Doubling expenditure without improving yield instead raises the budget by 10\%. Neither cheaper computation nor a higher source benchmark score determines which row applies. That requires evidence about $p(c)$ on the biomedical target.
+
+\paragraph{The threshold that changes the decision.}
+At a new per-attempt cost of 11, a strict saving over the baseline budget 220 permits at most 19 attempts. Reaching $\rho=.9$ therefore requires $p\ge1-.1^{1/19}\approx.1141$. The yield need not double: increasing it from .10 to at least .1141 suffices under this model. A pilot should resolve whether the new procedure clears that threshold, rather than merely whether its source score improves. Uncertainty matters: a point estimate above the threshold is not a reliability guarantee. Appendix~\ref{app:yield} propagates a yield interval into budget bounds.
+
+
+Independence is not essential for a sufficient guarantee. If each candidate succeeds with conditional probability at least $p_{\min}$ after every reached failure history, the chain rule bounds $n$ consecutive failures by $(1-p_{\min})^n$. The same attempt cap is then sufficient, though not necessarily minimal. An average marginal yield is weaker: if all candidates share one binary outcome, repeated tests never raise success above $p$. An expert-filtered selector has a yield conditional on that whole selection procedure, not on raw proposals. Adaptive selection can also change yield after each observation. Neither selected-hit counts nor average marginal yield alone supply the history-conditional guarantee.
+
+\subsection{A published case: what is measured, and what is missing?}
+\begin{table}[htbp]
+\caption{Connecting capability evidence to a scientific endpoint: a bounded audit of Co-Scientist Fig.~2a and initial AML Fig.~3a--c. Unknown entries identify measurements needed for the forecast, not evidence of zero benefit.}
+\label{tab:transferrecord}
+\centering\small
+\begin{tabular}{P{.22\linewidth}P{.70\linewidth}}
+\toprule
+Field & Reported evidence and supported boundary\\
+\midrule
+Source measurement & Top-hypothesis Elo ratings rise across ten temporal buckets covering 203 research goals (Fig.~2a); ratings are relative comparisons, not assay probabilities.\\\addlinespace[3pt]
+Biomedical target & Initial AML repurposing: cell-viability inhibition (Fig.~3a--c), distinct from the hypothetical binding-plus-cell-activity target in this appendix and from clinical benefit.\\\addlinespace[3pt]
+Selection and people & Oncologists selected five drugs from thirty ranked candidates before testing; expert filtering is part of the procedure.\\\addlinespace[3pt]
+Matched baseline & These results do not pair each reasoning budget with a matched laboratory arm and baseline procedure.\\\addlinespace[3pt]
+Outcome denominator & Three of five selected drugs showed reported inhibition. This does not estimate unfiltered generator yield or how yield changes with reasoning budget.\\\addlinespace[3pt]
+Costs and decision & Complete matched campaign costs and reuse savings are not identified by these results. Unknown benefit is not zero benefit.\\
+\bottomrule
+\end{tabular}
+\end{table}
+\label{sec:case}
+Co-Scientist reports both computational scaling and laboratory outcomes \citep{gottweis2026coscientist}. Table~\ref{tab:transferrecord} records what connects its hypothesis-ranking result to its initial acute myeloid leukemia (AML) drug-repurposing experiment. The six fields distinguish the source measurement, target, adapter, baseline, outcomes and costs. They document the narrower workflow comparison; they are not a replacement for capability-to-target calibration.
+
+
+
+The combined system-and-expert workflow produced active candidates. The authors distinguish this early validation from clinical efficacy. What remains unmeasured here is how changing the source capability changes yield and cost under a fixed selection-and-testing protocol. The table states the scope of this audit.
+
+\paragraph{Why the missing comparison matters.}
+Even knowing a new procedure's yield need not settle adoption. Stipulate its yield is .20 and each attempt costs 11: its .9-reliability budget is 121. If baseline yield is .10 at cost 10, the baseline budget is 220 and adoption saves money. If baseline yield is .30 at the same cost, its budget is 70 and adoption costs more. Both worlds agree on the new procedure's results. An unmeasured baseline therefore leaves even the direction of savings unresolved. These are constructed worlds, not estimates for Co-Scientist.
+
+The pilot below uses complete outcome denominators and explicit uncertainty under its stipulated observation model. A discovery-stage claim needs validation of its declared endpoint, not a clinical trial unless patient benefit is claimed.
+
+
+\subsection{Propagating uncertainty into campaign reserves}
+\label{app:yield}
+\paragraph{How uncertainty changes the budget.}
+For a fixed independent-attempt procedure, $B_\rho(p)$ decreases as $p$ increases. Thus a valid interval $0<p_L\le p\le p_U<1$ implies
+\begin{equation}
+ (c+v)\left\lceil\frac{\log(1-\rho)}{\log(1-p_U)}\right\rceil
+ \le B_\rho(p)\le
+ (c+v)\left\lceil\frac{\log(1-\rho)}{\log(1-p_L)}\right\rceil.
+ \label{eq:yieldinterval}
+\end{equation}
+For measured $p$, use a lower confidence bound appropriate to the prespecified sampling and selection procedure. On the event that it covers the true fixed $p$, substituting that bound provides the stated conditional campaign guarantee. Confidence coverage and campaign reliability are separate probabilities and should be reported separately; a .9 reliability target is not automatically a .9 unconditional guarantee after estimation. A zero lower bound gives no finite cap through this argument. An ordinary binomial interval for a marginal yield cannot establish the uniform history-conditional bound needed by an adaptive policy. If both procedures' yields or costs are uncertain, propagate both; robust savings require the new upper budget bound below the baseline lower bound.
+
+\subsection{Exact decision analysis for a fixed pilot}
+\label{sec:pilot_analysis}
+\label{app:pilot}
+This analysis asks how much evidence the proposed comparison can require, within the same hypothetical campaign model. It does not estimate biological yields or validate the reporting framework against real teams. The analysis contract was saved before outcomes: two frozen procedures, baseline and candidate per-attempt costs 10 and 11, campaign reliability $\rho=.9$, pilot sizes $N\in\{25,50,100,250,500,1000\}$ per arm, baseline yield $.10$, and candidate yields $.08,.10,.12,.20,.30$. The range includes worse, unchanged, near-threshold and substantially improved procedures; all results are retained.
+
+\paragraph{Pilot and future campaign are different stages.}
+A pilot always completes its prespecified $N$ independent attempts in each arm; it does not stop at the first hit or choose its size from interim results. Each arm has a fixed unknown yield $p_j$ and known cost $a_j$, with $j=0$ for baseline and $j=1$ for candidate. For this calculation the arms are independent too. All selected attempts enter the denominator; validity and failure rules, target, candidate-selection procedure and assay are fixed in advance. The subsequent campaign seeks at least one hit and reserves $B_j(p)=a_j\lceil\log(1-\rho)/\log(1-p)\rceil$, with $B_j(0)=\infty$ and $B_j(1)=a_j$. Setup costs are zero here. Shared batches, adaptive candidate selection, changing yield or uncertain costs need another observation/cost model.
+
+\paragraph{A conservative decision rule from standard intervals.}
+Let $X_j\sim\mathrm{Binomial}(N,p_j)$. Give each arm an equal-tailed Clopper--Pearson interval $[L_j,U_j]$ with coverage at least $1-\alpha/2$, where $\alpha=.05$ \citep{clopper1934}. For count $0<x<N$, the endpoints are beta quantiles
+\[
+ L(x)=F^{-1}_{\mathrm{Beta}(x,N-x+1)}(\alpha/4),\qquad
+ U(x)=F^{-1}_{\mathrm{Beta}(x+1,N-x)}(1-\alpha/4).
+\]
+Use $L(0)=0$, $U(N)=1$, and the same quantile formulas for the other endpoint at these extremes. With probability at least $1-\alpha$, both true yields are covered: apply the union bound to the two noncoverage events. Monotonicity then gives $B_j(U_j)\le B_j(p_j)\le B_j(L_j)$ simultaneously. Report
+\[
+ \begin{array}{ll}
+ \text{adopt:} & B_1(L_1)<B_0(U_0),\\
+ \text{non-saving:} & B_1(U_1)\ge B_0(L_0),\\
+ \text{unresolved:} & \text{otherwise}.
+ \end{array}
+\]
+On the joint coverage event either resolved conclusion is correct. Thus the unconditional probability of a wrong resolved conclusion is at most $\alpha$ for every pair of fixed yields under this model. This is not a 95\% probability of correctness conditional on selecting a conclusion, nor the future campaign's 90\% reliability. The guarantee is inherited confidence-interval reasoning, not a novel statistical method. The rule can be conservative; no optimality or comparison against all decision rules is claimed.
+
+\paragraph{Exact enumeration and comparator.}
+For each prespecified parameter setting, sum the decision indicator over all $(N+1)^2$ possible count pairs weighted by their independent binomial probabilities. The implementation evaluates equivalent binomial tails, with direct double-sum cross-checks at $N=25$. There are no random seeds, Monte Carlo error bars or fitted parameters. The point-estimate comparator adopts when $B_1(X_1/N)<B_0(X_0/N)$ and otherwise keeps the baseline. It uses identical observations and cost accounting, but has no stated error guarantee and never defers. Report adoption, non-saving, unresolved and wrong-decision probabilities, rather than comparing a selective rule only on its accepted cases. A separate numerical check over $N\in\{25,100,500\}$, $p_0\in\{.05,.10,.20\}$ and 41 equally spaced $p_1\in[.02,.40]$ verifies the error inequality at 369 settings; the analytical coverage argument, not that finite grid, establishes the guarantee.
+
+\paragraph{Sensitivity to reliability and sampling error.}
+\label{app:threshold_sensitivity}
+Reliability $\rho$ is the desired chance of a future campaign hit; $\alpha$ bounds a wrong resolved decision over repeated pilots under the sampling model. They answer different questions. A retrospective exact sensitivity crosses $\rho\in\{.8,.9,.95\}$, $\alpha\in\{.01,.05,.10\}$ and candidate yields $p_1\in\{.10,.12,.20,.30\}$, with baseline yield $.10$, $N=100$ per arm and costs 10/11 fixed: 36 settings. All count pairs are weighted by independent binomial probabilities. At $\rho=.9$ and $p_1=.20$, adoption is .646\%, 4.572\% and 10.902\% as $\alpha$ increases; for unchanged yield, false adoption is .0005\%, .0182\% and .0714\%. At $\alpha=.05$ and doubled yield, adoption is 5.099\%, 4.572\% and 5.003\% across the three $\rho$ values. Integer campaign caps make these differences nonmonotone. Low power persists in this grid, but the grid neither justifies a user's threshold nor compares all decision rules. Thresholds should reflect the consequences of error and deferral; prespecification alone supplies no such justification. The standard-library implementation in \texttt{scripts/analyze\_pilot\_threshold\_sensitivity.py} inverts binomial tails, checks coverage and reproduces the original four overlapping settings to absolute error below $10^{-10}$. All 36 outcomes are retained; this is hypothetical analysis, not empirical confirmation.
+
+\paragraph{Evaluation costs and boundaries.}
+Pilot expenditure is $N(10+11)=21N$, charged separately from the future campaign. For the stipulated $.10\to.20$ improvement, future budgets fall from 220 to 121. If the entire pilot is charged as an additional expense and its own hits receive no credit, offsetting that expense in reserved-budget savings requires $\lceil21N/99\rceil$ otherwise identical future campaigns. This assumes the saving is known and realized in subsequent budget allocations; it is not an expected cash-payback calculation. Campaigns may stop early, so actual expenditure differs from the reserve. This is an accounting illustration, not an estimate of experimental prices or net scientific value. Pilot hits may themselves be valuable; deployment frequencies and task changes also matter. The comparison shows why an uncertainty-aware evaluation can be sound yet uneconomic for a one-off decision. Biological dependence or distribution change can invalidate the calculation; no amount of computation validates its premises.
+
+\texttt{scripts/analyze\_decision\_pilot.py} saves every setting, checks interval endpoints against SciPy's exact binomial interval API, verifies campaign caps directly from success probabilities, and generates Figure~\ref{fig:pilot}. The complete build reruns these checks. This numerical analysis supports the implications of the stipulated model; a prospective matched study is still needed before claiming practical advantage in biomedical research.
+
+
+\begin{table}[htbp]
+\centering\small
+\caption{All 30 prespecified hypothetical pilot settings. Baseline yield is $.10$ and its true .9-reliability campaign budget is 220; $B_1$ is the candidate's true budget. Costs are arbitrary monetary units. Adoption probabilities refer to repeated pilots under the stipulated yields. The interval rule may defer; the point-estimate rule does not. At $p_1\le.10$, adoption is erroneous. Percentages are rounded to three decimals; displayed zeros can be small positive probabilities. Pilot expenditure is separate from campaign reserves.}
+\label{tab:pilotfull}
+\input{figures/decision_pilot_table}
+\end{table}
+\FloatBarrier
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/decision_pilot.pdf}
+\caption{Exact hypothetical pilot analysis. Baseline yield is $.10$, per-attempt costs are 10 and 11, and future campaign reliability is $.9$. Left: probability of recommending adoption when a true saving exists. The interval rule requires the candidate upper budget bound below the baseline lower bound. Right: probability of false adoption when yield is unchanged and costs rise; the two panels answer different questions. Lines join evaluated sizes, not a fitted scaling law. Neither rule is claimed optimal.}
+\label{fig:pilot}
+\end{figure}
+\section{Foundations and further research directions}
+\label{sec:related}
+Computational discovery builds on models of law and concept discovery \citep{langley1987}, reliable inquiry \citep{kelly1996}, and transformative discoveries in knowledge networks \citep{chen2009discovery}. Information-based complexity combines costly observations with computation \citep{traub1988,werschulz2002}. We build on these foundations to study the evolving reach of AI research procedures.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Closest predictive foundations and the remaining scientific question. The right column states obligations for our programme, not established advantages.}
+\label{tab:foundations}
+\begin{tabular}{P{.26\linewidth}P{.31\linewidth}P{.34\linewidth}}
+\toprule
+Foundation & Established construction & Additional question here\\
+\midrule
+Observational scaling \citep{ruan2024} & Shared capability coordinates predict downstream performance. & Which target requirements improve prediction beyond these coordinates?\\\addlinespace[3pt]
+Demand and response scales \citep{zhou2026scales,truong2026irsl} & Model ability and item demands jointly determine responses. & Which descriptors transport to unseen research targets?\\\addlinespace[3pt]
+Task-duration horizons \citep{kwa2025}; compute scenarios \citep{whitfill2025} & Estimate reliable task duration and condition its growth on resources. & What extra relation connects that ability to a specified scientific endpoint?\\\addlinespace[3pt]
+Information complexity and workflow analysis \citep{werschulz2002,meyerson2025} & Account for observation access, computation and dependencies. & How do changed procedures alter capability and completion times separately?\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Measurement validity is part of this question. \citet{wallach2025} distinguish conceptualization from operational measurement; \citet{zhuang2025} advocates psychometric evaluation, and \citet{chollet2019} emphasizes priors and generalization difficulty. A descriptor needs a defensible meaning as well as predictive accuracy. Cost-controlled agents and reproducible research environments supply relevant evaluation practice \citep{kapoor2024,bragg2026astabench}.
+
+Scientific scaling is already an agenda \citep{zhang2025discovery,ye2026v2}, alongside resource-constrained automation and scientific-pathway forecasting \citep{luo2026,chamoun2026}. Data-stock forecasts illustrate uncertainty under resource scenarios \citep{villalobos2024}; scientific event forecasting differs empirically from scientific reasoning \citep{wu2026forecasting}. Our question is which measurements justify moving from capability to target performance, then to a date. Neither logistic fitting nor computational discovery is new.
+
+
+Learned representations can change experimental search \citep{rankovic2026}, and discovery loops can use evaluated histories \citep{ye2026v2}. Recursive self-improvement may alter capability growth or procedure-development costs \citep{zhang2026dgm,zhang2026hyperagents}. A successful cycle supports that cycle; sustained acceleration requires measurements across successive improvements and their full costs.
+
+
+\section{An exploratory finite experimental-table forecast screen}
+\label{app:finite_table}
+We test the proposed next step on public tables distributed with GOLLuM \citep{rankovic2026}: four additive-screening plates, five Buchwald--Hartwig reaction tables, one Suzuki--Miyaura table and one C2-yield table. These are eleven tables from four source families, not eleven independent scientific domains. The repository snapshot is pinned in the artifact. Its Apache license is retained; underlying experimental provenance remains attributed to the source study. We do not rerun the laboratory experiments or reproduce GOLLuM's language-model optimizer.
+
+The original replay target was an observed objective at or above the admitted table's 90th percentile. All predictors received that threshold. After dropping incomplete and duplicate input rows, we uniformly subsampled at most 512 candidates without consulting outcomes. All eleven admitted sets contain 512 candidates. Numeric inputs are scaled by catalogue ranges and strings treated as categorical identities; outcome, procedure text and derived-output columns are excluded. The percentile uses the admitted archive to define a benchmark target, not information proved available to a historical forecaster. Ties and source dependence are reported in the retained metadata.
+
+We ran 50 seeded campaigns per table. Five initially uniform observations were followed by a fixed Gaussian-process upper-confidence policy, with acquisition mean plus one posterior standard deviation, noise .01 and kernel $\exp(-2d)$, where $d$ averages squared normalized numeric differences and categorical mismatches. Standardization of outcomes uses only observations already revealed. Every measured candidate costs one unit; observations within the pilot count against the total budget. No language-model training or paid inference is performed.
+
+At 5 and 10 observations, we predicted at least one hit by budget 20 (primary) or 40 (sensitivity). We compared ridge-logistic forecasts using budget alone, adding catalogue size, adding the best observed gap to threshold, and adding pilot mean, dispersion and pairwise kernel similarity. Catalogue size cannot differentiate these equally sized sets.
+
+For pilot outcomes $y_i$ and supplied threshold $u$, let $s=\max\{|u|,\operatorname{sd}(y_i),10^{-8}\}$, using population standard deviation. Best gap, mean gap and dispersion are $(\max_i y_i-u)/s$, $(\bar y-u)/s$ and $\operatorname{sd}(y_i)/s$. Similarity averages the off-diagonal kernel entries among pilot candidates. These calculations use revealed outcomes and the known catalogue.
+
+All predictors assign probability one after an observed pilot hit; logistic fits use only training campaigns without such a hit. The 550 campaigns yield 2,200 prefix--budget records (two prefixes and two budgets), evaluated by four predictors; these are repeated views of the same campaigns, not 8,800 independent trials. At pilot five, 221 campaigns have already hit and 329 remain. All other features use only the pilot and declared threshold; held-out future outcomes are evaluation labels. Each evaluation withheld an entire source family, keeping all five Buchwald--Hartwig tables or all four additive plates together. Forecast features were standardized on training families only. Losses were averaged equally within tables and then across source families, with the not-yet-hit stratum retained separately.
+
+\begin{table}[htbp]\centering\small
+\caption{Held-out-family Brier scores after five pilot observations, predicting success by budget 20. Lower is better. All forecasts use the same 550 campaign traces; pilot discoveries count as successes.}
+\label{tab:finite_table}
+\input{figures/finite_table_table}
+\end{table}
+
+Across families, budget-only Brier score is .01773, adding the best gap gives .01826, and pilot summaries give .01862. Thus the additional pilot descriptors do not improve the primary score. On campaigns without an initial hit, scores are .03106, .03197 and .03253. By budget 20 the family-averaged hit rate is 98.2\%; all retained campaigns have a hit by budget 40. This ceiling leaves little uncertainty for a discoverability forecast to resolve. The result neither validates the proposed descriptor nor establishes equivalence or impossibility; it identifies an uninformative easy-target regime for this screen. The stricter-endpoint analysis below is exploratory: its endpoints were chosen after this primary result was known.
+
+For reference, uniform sampling without replacement from a table with $N$ candidates and $H$ archive hits has hit probability $1-\binom{N-H}{b}/\binom{N}{b}$ by budget $b$. The artifact retains this oracle-informed reference using full-table hit counts; it is not a forecast of the adaptive policy.
+
+The artifact includes all candidate IDs, observed paths, source hashes, forecast features, fold predictions, per-table losses and calibration bins. Unique-query and future-outcome permutation checks protect the observed-prefix protocol. Four heterogeneous source families do not justify a calibrated target-population interval. This retrospective table replay supplies neither an intervention test of AI capability nor an information-available-at-the-time discovery forecast. A subsequent study would need a new independently fixed endpoint with substantial unresolved outcomes and held-out target families, not a redefinition selected to improve these scores.
+
+\subsection{Exploratory comparisons with simple forecasts}
+\label{app:replay_baselines}
+Near-universal success can make a low Brier score easy to obtain. We therefore added three reference forecasts after seeing the original replay: always predict success; predict success only if the pilot already found a hit; and use success prevalence from training families. These reuse every campaign and the original endpoint. They are a retrospective challenge, not independent confirmation.
+
+For the prevalence forecast, withhold the whole test source family. At each pilot/budget setting, use only other families' campaigns without a pilot hit; average their binary outcomes within tables, then tables within families and families equally. Assign this rate to unresolved test campaigns and probability one to those already known to have hit. Every fit retains three training families; no empty training stratum occurs. The always-success forecast uses no fitted parameters. The observed-hit-only forecast represents no further progress after the pilot, not a proposed competitive method.
+
+Table~\ref{tab:replay_baselines} compares Brier score with log-loss, which penalizes confident errors more heavily. Both use the original scoring convention: clip probabilities to $[10^{-6},1-10^{-6}]$, average campaigns within tables, then tables within families, then families equally. The all-campaign column includes 550 campaigns; the no-pilot-hit column includes 329. Training prevalence nearly matches the budget-only logistic forecast. Always-success also nearly matches its Brier score but has substantially worse log-loss: rare failures contradict its near-certainty. The two metrics therefore expose different weaknesses. Neither result validates a prospective discovery forecast.
+
+\begin{table}[htbp]\centering\small
+\caption{Post-result baseline challenge at pilot five and budget 20. Lower is better for both losses. All rows use identical campaign outcomes and family/table weighting; the three added references are marked *. The two strata overlap and are not replications.}
+\label{tab:replay_baselines}
+\input{figures/replay_baseline_challenge}
+\end{table}
+
+The comparison covers all four pilot/budget settings, both strata and each source family. Numerical checks reproduced the original scores; perturbing held-out outcomes left fitted predictions unchanged, confirming their exclusion from fitting. These checks use the same 550 campaigns and provide no additional evidence of generalization to new sources.
+
+\subsection{Endpoint sensitivity and source-level contrasts}
+\label{app:endpoint_sensitivity}
+Following the 98.2\% hit rate at the 90th-percentile endpoint, we chose stricter 95th- and 99th-percentile thresholds for an exploratory analysis. Their forecast scores were computed afterward. All 550 saved forty-step paths are reused without rerunning or changing the selection policy. Each endpoint redefines pilot-hit status, future-hit labels and the threshold-relative features. We refitted the same ridge-logistic budget and summary predictors with training-only standardization and leave-one-source-group exclusion. The existing best-gap predictor was then added as a simpler challenge to the 99th-percentile gain. All thresholds remain full-table hindsight information. This ordering makes the follow-up exploratory; it is not a new confirmation set.
+
+Tables~\ref{tab:endpoint_full} and~\ref{tab:endpoint_family} retain all endpoint/pilot/budget comparisons and the primary source differences. Within each fold, the training-only prevalence reference balances tables and source groups among no-hit pilots and assigns one to already-hit pilots. Scores average campaigns within tables, tables within source groups, and the four groups equally, as in the original experiment. The same campaign appears in several rows; rows are not independent experiments.
+
+\begin{table}[htbp]\centering\small
+\caption{Endpoint sensitivity: family-balanced Brier scores. All three targets, two pilots, two budgets, four predictors and both strata are retained. The two strata overlap. Lower is better.}
+\label{tab:endpoint_full}
+\input{figures/endpoint_full}
+\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Paired Brier difference, summaries minus budget-only, at pilot five/budget 20. Negative favors summaries. These are four descriptive source contrasts, not independent draws from a specified scientific population.}
+\label{tab:endpoint_family}
+\input{figures/endpoint_family}
+\end{table}
+
+At the 99th percentile, pooled log-loss falls from .76525 to .49995; the best-gap and prevalence references score .88142 and .76174. At the 95th percentile it worsens from .31881 to .38814. Omitting any one source from the average of the existing held-out losses gives 99th-percentile Brier differences from $-.14301$ to $-.10520$. This is reweighting of fixed fold results, not refitting with only two training sources. No target-population confidence interval is claimed. The no-pilot-hit 99th-percentile score also improves, from .30416 to .17473. Gains cannot be attributed solely to the deterministic already-hit gate. They do not persist at the forty-observation budget: at pilot five, summaries score .29591 versus .22316 for budget-only; at pilot ten, .27048 versus .23235. Thus the follow-up identifies an endpoint-and-budget-specific contrast, not uniform summary superiority.
+
+An independent solver reproduced the original predictions, and held-out-label perturbations left fitted predictions unchanged; source-file identities and thresholds were also checked. The saved 26,400 forecast records reuse the same 550 campaign histories and include every table/group loss and log-loss summary. The endpoint-dependent reversal warrants prospective testing of what early observations predict; it does not establish an AI-capability effect, clinical utility or a fitted discovery date.
+
+
+\subsection{Budget-specific forecasts and opposing source errors}
+\label{app:horizon_diagnostic}
+The longer-budget reversal admits a simple rival explanation: perhaps one set of summary coefficients cannot describe both budgets. We tested this after the endpoint analysis, retaining all three endpoints, both pilots, both budgets and the same four source exclusions. No trajectories or outcomes were added. The shared model is the original logistic regression. Separate models fit each budget independently, using both pilot lengths. For each held-out source, feature centering and scaling are still computed on the complete outer training set, so changing budgets does not also change feature units. Budget is constant within a separate fit; its penalized coefficient is zero. The best-gap predictor receives the same comparison.
+
+The primary separate fits retain penalty 1. Each budget has half as many training rows, so a second control uses penalty $n_h/n_{\rm pool}=1/2$: with weights summing to the training-row count, this preserves the penalty per weighted observation. Intercepts remain unpenalized. This changes coefficient sharing and parameter count; it is neither a new forecasting algorithm nor an isolated causal intervention on information. The same deterministic probability-one rule applies after a pilot hit. Predicted probabilities are clipped to $[10^{-6},1-10^{-6}]$ for both losses, as in the original analysis.
+
+\begin{table}[htbp]\centering\small
+\caption{Exploratory forecast-specification check. Brier scores use all campaigns and equal source/table weighting. Shared: original coefficients across budgets. Separate: independent budget fits, penalty 1. Matched: separate fits with penalty $1/2$. All endpoints, pilots and budgets are shown; these are repeated forecasts of the same 550 histories.}
+\label{tab:horizon_specification}
+\input{figures/horizon_specification}
+\end{table}
+
+At the 99th-percentile endpoint, pilot five and budget 20, separate summary fits improve Brier score from .16489 to .15424. At budget 40 they worsen it from .29591 to .33922; log-loss worsens from .99753 to 2.31803. The matched-penalty score is .34428 (log-loss 2.50883). The separate best-gap reference also worsens at budget 40 (.24185 versus the shared .22688). Separate fitting therefore does not remove the observed long-budget failure, but this check does not exclude other representations or calibration procedures.
+
+True hits are nested: a history that hits by observation 20 also hits by 40. Across all three endpoints and both pilots, none of the three original predictors violates this ordering in its forecasts. Separate summary fits do so for 2/550 histories at the 95th percentile and 10/550 at the 99th, both at pilot five. Matching the penalty increases these counts to 5 and 16; the matched best-gap fit has one strict-endpoint violation. All other settings have zero. These alternative fits are diagnostic comparisons, not recommended coherent completion distributions.
+
+The apparent agreement of the overall success-rate mean has a different limitation. For the original strict-endpoint summary forecast at pilot five/budget 40, the equally weighted source means are predictions .34964, .99113, .96927 and .96732, against observed rates 1, .976, .28 and .98 for additives, Buchwald--Hartwig, C2 and Suzuki--Miyaura. Underprediction and overprediction cancel: their averages are .81934 and .809. For each campaign, the residual is predicted hit probability minus its binary outcome. Within each table, mean squared residual equals squared mean residual plus residual variance. Averaging this identity by the scoring weights gives $.29591=.22732+.06860$; rounding accounts for the last digit. Thus 76.8\% of this descriptive error comes from within-table mean residuals. This is not a calibration guarantee or a population bias estimate; it diagnoses the existing predictions without fitting to held-out labels. Averaging sources before squaring would hide these opposing errors.
+
+Checks reproduced all 19,800 original logistic predictions exactly and verified eleven source hashes, 180 held-out-label perturbations, nested outcomes and the error decomposition. Retained forecasts and losses cover both score strata and every source/table. The 59,400 records reuse 550 histories, not new experiments; independently chosen endpoints and sources remain necessary before generalizing.

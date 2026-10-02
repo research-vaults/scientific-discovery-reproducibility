@@ -1,0 +1,61 @@
+{
+  "identification_settings": 81,
+  "independent_direct_max_difference": 1.4432899320127035e-15,
+  "synthesis_sizes": 7,
+  "pilot_settings": 30,
+  "horizon_settings": 135,
+  "cost_settings": 180,
+  "time_error_sensitivity": [
+    {
+      "epsilon": 0.05,
+      "m": 0.05,
+      "time_error_bound": 1.0
+    },
+    {
+      "epsilon": 0.05,
+      "m": 0.1,
+      "time_error_bound": 0.5
+    },
+    {
+      "epsilon": 0.05,
+      "m": 1,
+      "time_error_bound": 0.05
+    },
+    {
+      "epsilon": 0.2,
+      "m": 0.05,
+      "time_error_bound": 4.0
+    },
+    {
+      "epsilon": 0.2,
+      "m": 0.1,
+      "time_error_bound": 2.0
+    },
+    {
+      "epsilon": 0.2,
+      "m": 1,
+      "time_error_bound": 0.2
+    },
+    {
+      "epsilon": 0.5,
+      "m": 0.05,
+      "time_error_bound": 10.0
+    },
+    {
+      "epsilon": 0.5,
+      "m": 0.1,
+      "time_error_bound": 5.0
+    },
+    {
+      "epsilon": 0.5,
+      "m": 1,
+      "time_error_bound": 0.5
+    }
+  ],
+  "completion_reversal": {
+    "old_capability_horizon": 1,
+    "new_capability_horizon": 0,
+    "old_mean_completion": 2.25,
+    "new_mean_completion": 11.11111111111111
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "label_invariance_checks": 1442,
+  "folds": [
+    {
+      "axis": "task_family",
+      "family": null,
+      "task": "logical_deduction",
+      "train_rows": 219,
+      "test_rows": 219
+    },
+    {
+      "axis": "task_family",
+      "family": null,
+      "task": "tracking_shuffled_objects",
+      "train_rows": 219,
+      "test_rows": 219
+    },
+    {
+      "axis": "model_family",
+      "family": "BLOOM",
+      "task": null,
+      "train_rows": 414,
+      "test_rows": 24
+    },
+    {
+      "axis": "model_family",
+      "family": "CodeLlama",
+      "task": null,
+      "train_rows": 414,
+      "test_rows": 24
+    },
+    {
+      "axis": "model_family",
+      "family": "DeepSeek-Coder",
+      "task": null,
+      "train_rows": 420,
+      "test_rows": 18
+    },
+    {
+      "axis": "model_family",
+      "family": "Falcon",
+      "task": null,
+      "train_rows": 420,
+      "test_rows": 18
+    },
+    {
+      "axis": "model_family",
+      "family": "GPT-Neo/J",
+      "task": null,
+      "train_rows": 408,
+      "test_rows": 30
+    },
+    {
+      "axis": "model_family",
+      "family": "Gemma",
+      "task": null,
+      "train_rows": 426,
+      "test_rows": 12
+    },
+    {
+      "axis": "model_family",
+      "family": "Llama",
+      "task": null,
+      "train_rows": 414,
+      "test_rows": 24
+    },
+    {
+      "axis": "model_family",
+      "family": "Llama-2",
+      "task": null,
+      "train_rows": 420,
+      "test_rows": 18
+    },
+    {
+      "axis": "model_family",
+      "family": "MPT",
+      "task": null,
+      "train_rows": 426,
+      "test_rows": 12
+    },
+    {
+      "axis": "model_family",
+      "family": "Mistral",
+      "task": null,
+      "train_rows": 432,
+      "test_rows": 6
+    },
+    {
+      "axis": "model_family",
+      "family": "Mixtral",
+      "task": null,
+      "train_rows": 432,
+      "test_rows": 6
+    },
+    {
+      "axis": "model_family",
+      "family": "OPT",
+      "task": null,
+      "train_rows": 390,
+      "test_rows": 48
+    },
+    {
+      "axis": "model_family",
+      "family": "Phi",
+      "task": null,
+      "train_rows": 426,
+      "test_rows": 12
+    },
+    {
+      "axis": "model_family",
+      "family": "Pythia",
+      "task": null,
+      "train_rows": 390,
+      "test_rows": 48
+    },
+    {
+      "axis": "model_family",
+      "family": "Qwen",
+      "task": null,
+      "train_rows": 420,
+      "test_rows": 18
+    },
+    {
+      "axis": "model_family",
+      "family": "Qwen1.5",
+      "task": null,
+      "train_rows": 396,
+      "test_rows": 42
+    },
+    {
+      "axis": "model_family",
+      "family": "StarCoder",
+      "task": null,
+      "train_rows": 414,
+      "test_rows": 24
+    },
+    {
+      "axis": "model_family",
+      "family": "StarCoder2",
+      "task": null,
+      "train_rows": 420,
+      "test_rows": 18
+    },
+    {
+      "axis": "model_family",
+      "family": "XGLM",
+      "task": null,
+      "train_rows": 414,
+      "test_rows": 24
+    },
+    {
+      "axis": "model_family",
+      "family": "Yi",
+      "task": null,
+      "train_rows": 426,
+      "test_rows": 12
+    },
+    {
+      "axis": "larger",
+      "family": null,
+      "task": null,
+      "train_rows": 292,
+      "test_rows": 146
+    },
+    {
+      "axis": "joint_families",
+      "family": "BLOOM",
+      "task": "logical_deduction",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "BLOOM",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "CodeLlama",
+      "task": "logical_deduction",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "CodeLlama",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "DeepSeek-Coder",
+      "task": "logical_deduction",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "DeepSeek-Coder",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "Falcon",
+      "task": "logical_deduction",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "Falcon",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "GPT-Neo/J",
+      "task": "logical_deduction",
+      "train_rows": 204,
+      "test_rows": 15
+    },
+    {
+      "axis": "joint_families",
+      "family": "GPT-Neo/J",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 204,
+      "test_rows": 15
+    },
+    {
+      "axis": "joint_families",
+      "family": "Gemma",
+      "task": "logical_deduction",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families",
+      "family": "Gemma",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families",
+      "family": "Llama",
+      "task": "logical_deduction",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "Llama",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "Llama-2",
+      "task": "logical_deduction",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "Llama-2",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "MPT",
+      "task": "logical_deduction",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families",
+      "family": "MPT",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families",
+      "family": "Mistral",
+      "task": "logical_deduction",
+      "train_rows": 216,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families",
+      "family": "Mistral",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 216,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families",
+      "family": "Mixtral",
+      "task": "logical_deduction",
+      "train_rows": 216,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families",
+      "family": "Mixtral",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 216,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families",
+      "family": "OPT",
+      "task": "logical_deduction",
+      "train_rows": 195,
+      "test_rows": 24
+    },
+    {
+      "axis": "joint_families",
+      "family": "OPT",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 195,
+      "test_rows": 24
+    },
+    {
+      "axis": "joint_families",
+      "family": "Phi",
+      "task": "logical_deduction",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families",
+      "family": "Phi",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families",
+      "family": "Pythia",
+      "task": "logical_deduction",
+      "train_rows": 195,
+      "test_rows": 24
+    },
+    {
+      "axis": "joint_families",
+      "family": "Pythia",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 195,
+      "test_rows": 24
+    },
+    {
+      "axis": "joint_families",
+      "family": "Qwen",
+      "task": "logical_deduction",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "Qwen",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "Qwen1.5",
+      "task": "logical_deduction",
+      "train_rows": 198,
+      "test_rows": 21
+    },
+    {
+      "axis": "joint_families",
+      "family": "Qwen1.5",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 198,
+      "test_rows": 21
+    },
+    {
+      "axis": "joint_families",
+      "family": "StarCoder",
+      "task": "logical_deduction",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "StarCoder",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "StarCoder2",
+      "task": "logical_deduction",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "StarCoder2",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 210,
+      "test_rows": 9
+    },
+    {
+      "axis": "joint_families",
+      "family": "XGLM",
+      "task": "logical_deduction",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "XGLM",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 207,
+      "test_rows": 12
+    },
+    {
+      "axis": "joint_families",
+      "family": "Yi",
+      "task": "logical_deduction",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families",
+      "family": "Yi",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 213,
+      "test_rows": 6
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "BLOOM",
+      "task": "logical_deduction",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "BLOOM",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "CodeLlama",
+      "task": "logical_deduction",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "CodeLlama",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "DeepSeek-Coder",
+      "task": "logical_deduction",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "DeepSeek-Coder",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Falcon",
+      "task": "logical_deduction",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Falcon",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "GPT-Neo/J",
+      "task": "logical_deduction",
+      "train_rows": 136,
+      "test_rows": 5
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "GPT-Neo/J",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 136,
+      "test_rows": 5
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Gemma",
+      "task": "logical_deduction",
+      "train_rows": 142,
+      "test_rows": 2
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Gemma",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 142,
+      "test_rows": 2
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Llama",
+      "task": "logical_deduction",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Llama",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Llama-2",
+      "task": "logical_deduction",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Llama-2",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "MPT",
+      "task": "logical_deduction",
+      "train_rows": 142,
+      "test_rows": 2
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "MPT",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 142,
+      "test_rows": 2
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Mistral",
+      "task": "logical_deduction",
+      "train_rows": 144,
+      "test_rows": 1
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Mistral",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 144,
+      "test_rows": 1
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Mixtral",
+      "task": "logical_deduction",
+      "train_rows": 144,
+      "test_rows": 1
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Mixtral",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 144,
+      "test_rows": 1
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "OPT",
+      "task": "logical_deduction",
+      "train_rows": 130,
+      "test_rows": 8
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "OPT",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 130,
+      "test_rows": 8
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Phi",
+      "task": "logical_deduction",
+      "train_rows": 142,
+      "test_rows": 2
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Phi",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 142,
+      "test_rows": 2
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Pythia",
+      "task": "logical_deduction",
+      "train_rows": 130,
+      "test_rows": 8
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Pythia",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 130,
+      "test_rows": 8
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Qwen",
+      "task": "logical_deduction",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Qwen",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Qwen1.5",
+      "task": "logical_deduction",
+      "train_rows": 132,
+      "test_rows": 7
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Qwen1.5",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 132,
+      "test_rows": 7
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "StarCoder",
+      "task": "logical_deduction",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "StarCoder",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "StarCoder2",
+      "task": "logical_deduction",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "StarCoder2",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 140,
+      "test_rows": 3
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "XGLM",
+      "task": "logical_deduction",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "XGLM",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 138,
+      "test_rows": 4
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Yi",
+      "task": "logical_deduction",
+      "train_rows": 142,
+      "test_rows": 2
+    },
+    {
+      "axis": "joint_families_larger",
+      "family": "Yi",
+      "task": "tracking_shuffled_objects",
+      "train_rows": 142,
+      "test_rows": 2
+    }
+  ],
+  "below_chance_cells": 211,
+  "cells": 438,
+  "below_chance_by_task": {
+    "logical_deduction": 78,
+    "tracking_shuffled_objects": 133
+  }
+}

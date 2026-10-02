@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "arithmetic_checks": 28608,
+  "maximum_absolute_difference": 7.275957614183426e-12,
+  "original_predictors_reconstructed": true,
+  "refit_replicates": 500,
+  "finite_table_traces": 550,
+  "scope": "Independent arithmetic and retained-source consistency; not an independent scientific review or new empirical measurements."
+}

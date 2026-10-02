@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "type": "hypothetical deduction, not data",
+  "setup_sensitivity": [
+    {
+      "setup": 0,
+      "campaigns": 1,
+      "new_total": 121,
+      "baseline_total": 220,
+      "new_average": 121.0,
+      "max_attempts_for_saving": 19,
+      "minimum_yield": 0.11413320958991735,
+      "saving": true
+    },
+    {
+      "setup": 120,
+      "campaigns": 1,
+      "new_total": 241,
+      "baseline_total": 220,
+      "new_average": 241.0,
+      "max_attempts_for_saving": 9,
+      "minimum_yield": 0.2257363173188729,
+      "saving": false
+    },
+    {
+      "setup": 120,
+      "campaigns": 10,
+      "new_total": 1330,
+      "baseline_total": 2200,
+      "new_average": 133.0,
+      "max_attempts_for_saving": 18,
+      "minimum_yield": 0.12007745643089296,
+      "saving": true
+    }
+  ],
+  "rows": [
+    {
+      "procedure": "baseline",
+      "c": 1,
+      "v": 9,
+      "p": 0.1,
+      "q": 0.9,
+      "attempts": 22,
+      "budget": 220,
+      "success_probability": 0.9015229097816388,
+      "success_one_fewer": 0.8905810108684876
+    },
+    {
+      "procedure": "cheaper_proposals",
+      "c": 0.1,
+      "v": 9,
+      "p": 0.1,
+      "q": 0.9,
+      "attempts": 22,
+      "budget": 200.2,
+      "success_probability": 0.9015229097816388,
+      "success_one_fewer": 0.8905810108684876
+    },
+    {
+      "procedure": "better_selection",
+      "c": 2,
+      "v": 9,
+      "p": 0.2,
+      "q": 0.9,
+      "attempts": 11,
+      "budget": 121,
+      "success_probability": 0.91410065408,
+      "success_one_fewer": 0.8926258175999999
+    },
+    {
+      "procedure": "costlier_unchanged_yield",
+      "c": 2,
+      "v": 9,
+      "p": 0.1,
+      "q": 0.9,
+      "attempts": 22,
+      "budget": 242,
+      "success_probability": 0.9015229097816388,
+      "success_one_fewer": 0.8905810108684876
+    }
+  ],
+  "sensitivity": [
+    {
+      "q": 0.5,
+      "baseline_attempts": 7,
+      "better_attempts": 4,
+      "baseline_budget": 70,
+      "better_budget": 44
+    },
+    {
+      "q": 0.9,
+      "baseline_attempts": 22,
+      "better_attempts": 11,
+      "baseline_budget": 220,
+      "better_budget": 121
+    },
+    {
+      "q": 0.99,
+      "baseline_attempts": 44,
+      "better_attempts": 21,
+      "baseline_budget": 440,
+      "better_budget": 231
+    }
+  ],
+  "minimum_yield_for_strict_saving_at_c2": 0.11413320958991735,
+  "correlated_counterexample": {
+    "p": 0.2,
+    "attempts": 11,
+    "independent_success": 0.91410065408,
+    "identical_outcome_success": 0.2
+  },
+  "opposite_baseline_worlds": [
+    {
+      "p": 0.1,
+      "budget": 220
+    },
+    {
+      "p": 0.3,
+      "budget": 70
+    }
+  ],
+  "stipulated_uncertainty_ranges": [
+    {
+      "stipulated_p_range": [
+        0.12,
+        0.22
+      ],
+      "budget_range": [
+        110,
+        209
+      ]
+    },
+    {
+      "stipulated_p_range": [
+        0.08,
+        0.22
+      ],
+      "budget_range": [
+        110,
+        308
+      ]
+    }
+  ],
+  "uncertainty_aware_decision": {
+    "baseline_budget_range": [
+      200,
+      250
+    ],
+    "new_narrow_budget_range": [
+      110,
+      187
+    ],
+    "new_wide_budget_range": [
+      110,
+      308
+    ],
+    "narrow_decision": "robust saving under stipulated ranges",
+    "wide_decision": "unresolved; acquire evidence"
+  }
+}

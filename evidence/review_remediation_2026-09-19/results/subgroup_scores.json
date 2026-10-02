@@ -1,0 +1,2562 @@
+[
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 0.0001997525586589775
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 0.0005398268544538051
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 2.6736982963488345e-08
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 3.828200889670044e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.0001386803932526063
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.018390791170654324
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.0040172351631057686
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.001053555418572788
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.0014436935745165652
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 4.784031651958144e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.004186797875139001
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.0020743065219194835
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.028033316920188945
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.026065788220195122
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.003883607545229881
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.0032025622241327015
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.0028991609950232266
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.004940549334813101
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 0.00028417304737747567
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 0.0007675378828242645
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.001090081855279059
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.0537727366881422
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 0.00016437318974861113
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.010676836553782933
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.04849210759972767
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 0.0003832336012230526
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 9.366461062423671e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.004728211017116816
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.0012954062459500928
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.07185170270283854
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 5.370472326141543e-06
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 0.00014430682625469023
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.024340519854020196
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.012288596586452859
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 5.720076757796206e-06
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 5.593481455865323e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 0.00013979575515689506
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 4.194886267705702e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.035497696849792856
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.0007438112099838849
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.0006255458841331664
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.0007536427288131103
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.00012211009817767588
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 4.64646961564082e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.0038627439037877565
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.005819289298714757
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.04530822082545191
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.00507123365618092
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.0012382293943514588
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.01405363989070524
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.00026092832343739043
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.008335924409122156
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 2.473625175746213e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 8.366883974144436e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.00011621601069892673
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.024408447533720956
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 8.083679858897675e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.006738604885656876
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.03988113998859411
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 3.792242360747025e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 0.00030563327892154534
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.004771505505599527
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.00018956945225293795
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.03163778058806995
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 1.692513968558048e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 8.179628815749319e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.003939497443232698
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.0035606177542403528
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 0.0042404764523747245
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 0.007554937495457391
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 0.5222357591094744
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 3.6220348408632195e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.003701836253796957
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.0022225952093189593
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.16344724602972907
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.002179182589787493
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.16068667132740508
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 0.00052031570567706
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.05507657393445518
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.10138104056418168
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.03276901267300434
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.0029872631187702796
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.014862307488011877
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.01763132957360513
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.0008897629266396364
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.01059905140950599
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 0.0017637169036515364
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 0.00345327137147755
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.004250837531850109
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.1291998326791889
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 0.0003694047086912028
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.12116407343569795
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.12055686972281794
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 0.0027971806298826966
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 5.978410148719231e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.00808739246199996
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.0011875957126879166
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.032000663500466084
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 0.0014305640376313302
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 0.0014474867976644115
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.02056822002905594
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.1746507113454904
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 0.025101712353466105
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 0.030305602016588263
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 0.02092713440962891
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 0.03720357643201519
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.028186270811496997
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.01250255252336893
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.38788406686013804
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.0004286802637241946
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.34528030871945203
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 0.02995548855702136
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.05983494649706926
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.19535270174644007
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.02224787993060918
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.014834976610207436
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.04411357150342004
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.2109075604304402
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.010862357615810997
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.019022574043339794
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 0.03607513228878967
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 0.031739636120173755
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.027753488125036564
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.06918932330125466
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 0.03651061644936708
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.1768504517221283
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.1434627093813227
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 0.03021488595479017
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 0.027370860866831447
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.023879908979856923
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.02346665152388878
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.04051826913701724
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 0.029130952232132617
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 0.03547863095775168
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.05430959896080688
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.21102144891566676
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 0.00010480420962772309
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 0.0002445753533364661
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 0.0023730823116414872
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 0.0005861552076178756
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.08406749939615304
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.14932148828652245
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.00220058817717406
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.012279025587920569
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.012298682284425553
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 0.0019130498601387601
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.010930472209778282
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.008678585862330416
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.004157061952540464
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.006636236361122131
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.014925871993569257
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.0009233099583309574
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.0039609458191658025
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.0017611731478167681
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 0.001727807646848569
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 0.0033865614772380695
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.0005172397250354861
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.08517747539653794
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 0.0008647328793383928
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.02507915668425441
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.009783229277774587
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 1.8107193569599122e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 0.00040999203347229576
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.0009161364883298334
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.048923491591507044
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.09436837885753653
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 0.0008369414281657905
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 0.000887663893917907
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.038652996424128026
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.007557038663248489
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 0.000189357302418942
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 0.0008379889540615556
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 0.002960520222077135
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 0.000635289247760686
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.06761409261095588
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.14633112322658645
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.001764538238368478
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.011010576462548355
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.01112209453439725
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 0.0018984861410935396
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.011443314001970836
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.01176304646067509
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.0010083939672822825
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.0049253293883538135
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.017658836712347966
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.0023974080865561418
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.004610031731032686
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.0030925604367045643
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 0.0016634002831618676
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 0.003260584136233261
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.0006659690001481916
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.07979619467543003
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 0.0009575368123405635
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.042909886206989996
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.015613853358217033
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 3.3838241403335076e-05
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 0.00011044956736229866
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.0009956699548789017
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.04786646179153034
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.09146333751773367
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 0.0005389438592114964
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 0.001054468236162217
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.0472919935452045
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.008401969428563612
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 0.001665406705784412
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 0.003990106265528532
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 0.3577620673808266
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 0.0005492229136351033
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.037791158119460135
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.0823247015707777
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.020667053079710757
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.016972929484367755
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.012098695285527
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 0.0009539397199610489
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.013704576693684422
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.013676767294441476
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.0016920549435752203
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.001435940141111436
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.0005913399635747139
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.0013634822266474513
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.0027863797417795977
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.0005224274284932158
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 0.003573072064234649
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 0.007370453750284464
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.0029959772538244805
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.1442045980204093
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 0.0005786604895739592
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.017117289653285836
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.017159929662890278
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 0.00128852235531133
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 0.00025536689478351874
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.0036193279185815323
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.02288212053872714
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.04148118025467593
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 0.0038982250324364237
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 0.0028741830920976826
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.0006587424096579282
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.04003494420816455
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Amber",
+    "cells": 1,
+    "rate_mse": 0.011170456298517928
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "BLOOM",
+    "cells": 5,
+    "rate_mse": 0.021365251206983116
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "BTLM",
+    "cells": 1,
+    "rate_mse": 0.004728798536750621
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Cerebras-GPT",
+    "cells": 6,
+    "rate_mse": 0.027672973200146018
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "CodeLlama",
+    "cells": 4,
+    "rate_mse": 0.08198683782107886
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-Coder",
+    "cells": 3,
+    "rate_mse": 0.077531732714109
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-Coder-V2",
+    "cells": 1,
+    "rate_mse": 0.13105495506182838
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-LLM",
+    "cells": 1,
+    "rate_mse": 0.008324419458143514
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "DeepSeek-V2",
+    "cells": 1,
+    "rate_mse": 0.09028518491023493
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "GPT-Neo/J",
+    "cells": 5,
+    "rate_mse": 0.013354884638319766
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Gemma",
+    "cells": 2,
+    "rate_mse": 0.015643842421105652
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Gemma-2",
+    "cells": 3,
+    "rate_mse": 0.06222245103690672
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "H2O-Danube",
+    "cells": 4,
+    "rate_mse": 0.017897729297241014
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Llama",
+    "cells": 4,
+    "rate_mse": 0.001742394226468697
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Llama-2",
+    "cells": 3,
+    "rate_mse": 0.00611119802286664
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Llama-3.1",
+    "cells": 2,
+    "rate_mse": 0.11436599639167447
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "MPT",
+    "cells": 2,
+    "rate_mse": 0.0009029757142465947
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "OLMo",
+    "cells": 3,
+    "rate_mse": 0.005183740886175263
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "OPT",
+    "cells": 8,
+    "rate_mse": 0.032593520622693856
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "OpenLlama",
+    "cells": 2,
+    "rate_mse": 0.030626755210924537
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "OpenLlamaV2",
+    "cells": 2,
+    "rate_mse": 0.016723690074893875
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Phi",
+    "cells": 2,
+    "rate_mse": 0.06855218409350125
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Pythia",
+    "cells": 8,
+    "rate_mse": 0.020659100715359528
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Qwen",
+    "cells": 3,
+    "rate_mse": 0.03318805000080475
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Qwen1.5",
+    "cells": 7,
+    "rate_mse": 0.03600578625781534
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "RedPajama-INCITE-Base",
+    "cells": 2,
+    "rate_mse": 0.0165006085757862
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "SmolLM",
+    "cells": 3,
+    "rate_mse": 0.02703312299251359
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "StableLM",
+    "cells": 4,
+    "rate_mse": 0.012455594459566108
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "StarCoder",
+    "cells": 4,
+    "rate_mse": 0.008870841582445397
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "StarCoder2",
+    "cells": 3,
+    "rate_mse": 0.04880252209826042
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "TinyLlama",
+    "cells": 1,
+    "rate_mse": 0.02796606626474256
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "XGLM",
+    "cells": 4,
+    "rate_mse": 0.031804600490691615
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Yi",
+    "cells": 2,
+    "rate_mse": 0.004809248126640201
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "subgroup": "Yi-1.5",
+    "cells": 3,
+    "rate_mse": 0.06376946656805936
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.02346546175888577
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.03800461666871784
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.022824613335845755
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.038619456189923095
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.017382975110758838
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.026052103433135035
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.013462582907461466
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.02560110930878911
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.013186329172542078
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.02255879517025077
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "count_only",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.02122905500997046
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "count_only",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.0344831491066114
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "pooled_mean",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.03204365238245871
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "pooled_mean",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.05712522978450601
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "task_family_mean",
+    "subgroup": "logical_deduction",
+    "cells": 73,
+    "rate_mse": 0.04107106781511678
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "task_family_mean",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 73,
+    "rate_mse": 0.048250227765842056
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.032441776619079335
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.031581976047917355
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.032809194860369616
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.03321319736979279
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.02571164719933388
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.028347106939668965
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.019422317535960607
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.02808895526777938
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.019385785772263076
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.02747529305154222
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "count_only",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.03624212791609487
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "count_only",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.03801362444597483
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "pooled_mean",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.04167567315186055
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "pooled_mean",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.04382267209803208
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "task_family_mean",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.041420929394086634
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "task_family_mean",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.04306924646910299
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.0380022659714237
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.030325294152230415
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.03802367065697293
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.03302508410060975
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.026385443872420228
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.02689668541656896
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.024946293328660375
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.030382549332651995
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.02362315955481301
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.028367309670676504
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "count_only",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.04214901314069693
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "count_only",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.0367940213810191
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "pooled_mean",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.0420217050201815
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "pooled_mean",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.04415755865577289
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "task_family_mean",
+    "subgroup": "logical_deduction",
+    "cells": 219,
+    "rate_mse": 0.0420217050201815
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "task_family_mean",
+    "subgroup": "tracking_shuffled_objects",
+    "cells": 219,
+    "rate_mse": 0.04415755865577289
+  }
+]

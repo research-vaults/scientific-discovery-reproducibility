@@ -1,0 +1,1642 @@
+[
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 70,
+    "mean_prediction": 0.02788284607192303,
+    "mean_observed_rate": 0.04372360012996855
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 9,
+    "mean_prediction": 0.13708755619395718,
+    "mean_observed_rate": 0.237553702299722
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 8,
+    "mean_prediction": 0.23912847590754446,
+    "mean_observed_rate": 0.27961684988627744
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 3,
+    "mean_prediction": 0.3438557887542047,
+    "mean_observed_rate": 0.45893353550669697
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 5,
+    "mean_prediction": 0.45803262743731404,
+    "mean_observed_rate": 0.4500379075056862
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 3,
+    "mean_prediction": 0.5068012311151866,
+    "mean_observed_rate": 0.5299469294920395
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 4,
+    "mean_prediction": 0.6652494023266174,
+    "mean_observed_rate": 0.5860185746777862
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 5,
+    "mean_prediction": 0.7437030572874834,
+    "mean_observed_rate": 0.7338893100833965
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC1",
+    "bin_left": 0.8,
+    "bin_right": 0.9,
+    "cells": 2,
+    "mean_prediction": 0.8172640666102337,
+    "mean_observed_rate": 0.7513495072024261
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 69,
+    "mean_prediction": 0.024149619478484142,
+    "mean_observed_rate": 0.04057751260836597
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 12,
+    "mean_prediction": 0.14904397205140626,
+    "mean_observed_rate": 0.20940845337376798
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 4,
+    "mean_prediction": 0.25209698169556044,
+    "mean_observed_rate": 0.24298711144806667
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 4,
+    "mean_prediction": 0.3337164429176302,
+    "mean_observed_rate": 0.4179302501895375
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 3,
+    "mean_prediction": 0.4311865678074232,
+    "mean_observed_rate": 0.5203436947182208
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 7,
+    "mean_prediction": 0.5585704318019394,
+    "mean_observed_rate": 0.5346041373334778
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 1,
+    "mean_prediction": 0.6789268335512152,
+    "mean_observed_rate": 0.686
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 5,
+    "mean_prediction": 0.74375266754669,
+    "mean_observed_rate": 0.6521607278241092
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.8,
+    "bin_right": 0.9,
+    "cells": 3,
+    "mean_prediction": 0.8306034441211047,
+    "mean_observed_rate": 0.7331463229719484
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "PC3",
+    "bin_left": 0.9,
+    "bin_right": 1.0,
+    "cells": 1,
+    "mean_prediction": 0.9085934358168565,
+    "mean_observed_rate": 0.7626990144048522
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 64,
+    "mean_prediction": 0.03922421675589455,
+    "mean_observed_rate": 0.05522077568233506
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 23,
+    "mean_prediction": 0.13763831484015632,
+    "mean_observed_rate": 0.22691762534199159
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 10,
+    "mean_prediction": 0.25104131711706057,
+    "mean_observed_rate": 0.42568870356330557
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 8,
+    "mean_prediction": 0.3489769686901071,
+    "mean_observed_rate": 0.6467968157695223
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 2,
+    "mean_prediction": 0.43531793146117226,
+    "mean_observed_rate": 0.58986353297953
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 1,
+    "mean_prediction": 0.6334888614289681,
+    "mean_observed_rate": 0.7626990144048522
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "log_compute",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 1,
+    "mean_prediction": 0.7643570686340482,
+    "mean_observed_rate": 0.0416982562547384
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "GSM8K",
+    "predictor": "target_mean",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 109,
+    "mean_prediction": 0.18644605818027915,
+    "mean_observed_rate": 0.18503321949489113
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 73,
+    "mean_prediction": 0.041936412204908104,
+    "mean_observed_rate": 0.0907163381222853
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 11,
+    "mean_prediction": 0.16304840867498516,
+    "mean_observed_rate": 0.23887583148558758
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 8,
+    "mean_prediction": 0.2532183536505996,
+    "mean_observed_rate": 0.32164634146341464
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 4,
+    "mean_prediction": 0.37708564223214736,
+    "mean_observed_rate": 0.33993902439024387
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 2,
+    "mean_prediction": 0.412232742784009,
+    "mean_observed_rate": 0.37499999999999994
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 7,
+    "mean_prediction": 0.549794546483441,
+    "mean_observed_rate": 0.4059233449477352
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC1",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 4,
+    "mean_prediction": 0.627618237110552,
+    "mean_observed_rate": 0.4878048780487805
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 72,
+    "mean_prediction": 0.040925906555287266,
+    "mean_observed_rate": 0.08664092140921406
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 11,
+    "mean_prediction": 0.1541386219570514,
+    "mean_observed_rate": 0.22280044345898
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 8,
+    "mean_prediction": 0.24780990311680276,
+    "mean_observed_rate": 0.34832317073170727
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 5,
+    "mean_prediction": 0.3695733081775237,
+    "mean_observed_rate": 0.3414634146341463
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 2,
+    "mean_prediction": 0.47396081937990164,
+    "mean_observed_rate": 0.37499999999999994
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 7,
+    "mean_prediction": 0.559894223907139,
+    "mean_observed_rate": 0.4059233449477352
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 3,
+    "mean_prediction": 0.6558514699438012,
+    "mean_observed_rate": 0.5264227642276422
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "PC3",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 1,
+    "mean_prediction": 0.7077077887509053,
+    "mean_observed_rate": 0.3719512195121951
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 58,
+    "mean_prediction": 0.04391363644488985,
+    "mean_observed_rate": 0.0635046257359125
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 28,
+    "mean_prediction": 0.13964261646397036,
+    "mean_observed_rate": 0.21886585365853659
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 10,
+    "mean_prediction": 0.2442433036718658,
+    "mean_observed_rate": 0.3493292682926829
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 10,
+    "mean_prediction": 0.346109837219733,
+    "mean_observed_rate": 0.41890243902439017
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 1,
+    "mean_prediction": 0.444720622229885,
+    "mean_observed_rate": 0.5304878048780488
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 1,
+    "mean_prediction": 0.59395378965744,
+    "mean_observed_rate": 0.5975609756097561
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "log_compute",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 1,
+    "mean_prediction": 0.7017906853458439,
+    "mean_observed_rate": 0.1036585365853658
+  },
+  {
+    "source": "association_predictions.csv",
+    "target": "HumanEval",
+    "predictor": "target_mean",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 109,
+    "mean_prediction": 0.1731508088551547,
+    "mean_observed_rate": 0.1717939136272097
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 56,
+    "mean_prediction": 0.1583746036670395,
+    "mean_observed_rate": 0.09399999999999999
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 40,
+    "mean_prediction": 0.2476835021333045,
+    "mean_observed_rate": 0.14751428571428568
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 16,
+    "mean_prediction": 0.3718222762131923,
+    "mean_observed_rate": 0.3032142857142857
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 16,
+    "mean_prediction": 0.4485370501311431,
+    "mean_observed_rate": 0.27935714285714286
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 14,
+    "mean_prediction": 0.5490487149128919,
+    "mean_observed_rate": 0.33355102040816326
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC1",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 4,
+    "mean_prediction": 0.6287176256695872,
+    "mean_observed_rate": 0.3232857142857143
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 52,
+    "mean_prediction": 0.14936541298941244,
+    "mean_observed_rate": 0.09316483516483516
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 34,
+    "mean_prediction": 0.2422748937881968,
+    "mean_observed_rate": 0.15416806722689072
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 22,
+    "mean_prediction": 0.3460199831427259,
+    "mean_observed_rate": 0.20028571428571426
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 24,
+    "mean_prediction": 0.4531993747912475,
+    "mean_observed_rate": 0.290547619047619
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 14,
+    "mean_prediction": 0.558488511905414,
+    "mean_observed_rate": 0.35591836734693866
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 100,
+    "mean_prediction": 0.15767564190033037,
+    "mean_observed_rate": 0.11834285714285712
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 24,
+    "mean_prediction": 0.2382874897405937,
+    "mean_observed_rate": 0.32616666666666666
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 8,
+    "mean_prediction": 0.33929095981397167,
+    "mean_observed_rate": 0.2374285714285714
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 6,
+    "mean_prediction": 0.41527605784481564,
+    "mean_observed_rate": 0.458952380952381
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 4,
+    "mean_prediction": 0.5100624158661287,
+    "mean_observed_rate": 0.20999999999999996
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 4,
+    "mean_prediction": 0.6110820522727642,
+    "mean_observed_rate": 0.3232857142857143
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 60,
+    "mean_prediction": 0.07144688189288682,
+    "mean_observed_rate": 0.10651428571428571
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 58,
+    "mean_prediction": 0.14674933511983498,
+    "mean_observed_rate": 0.1889655172413793
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 28,
+    "mean_prediction": 0.23077710390011746,
+    "mean_observed_rate": 0.3249183673469388
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 64,
+    "mean_prediction": 0.06632830114316801,
+    "mean_observed_rate": 0.1097767857142857
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 46,
+    "mean_prediction": 0.14029085735397154,
+    "mean_observed_rate": 0.1721987577639751
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 24,
+    "mean_prediction": 0.24030336276040357,
+    "mean_observed_rate": 0.30211904761904756
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 12,
+    "mean_prediction": 0.3225820845807438,
+    "mean_observed_rate": 0.35423809523809524
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "count_only",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 146,
+    "mean_prediction": 0.11889896964472817,
+    "mean_observed_rate": 0.18115459882583168
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "pooled_mean",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 146,
+    "mean_prediction": 0.32469589041095887,
+    "mean_observed_rate": 0.18115459882583168
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "task_family_mean",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 73,
+    "mean_prediction": 0.2935159817351598,
+    "mean_observed_rate": 0.1667866927592955
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "larger_target",
+    "predictor": "task_family_mean",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 73,
+    "mean_prediction": 0.35587579908675787,
+    "mean_observed_rate": 0.19552250489236786
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 12,
+    "mean_prediction": 0.09690338345360065,
+    "mean_observed_rate": 0.13387301587301584
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 222,
+    "mean_prediction": 0.142541461431076,
+    "mean_observed_rate": 0.19343320463320463
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 84,
+    "mean_prediction": 0.23916267540193686,
+    "mean_observed_rate": 0.30963492063492054
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 54,
+    "mean_prediction": 0.3453694141801637,
+    "mean_observed_rate": 0.3855216931216931
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 42,
+    "mean_prediction": 0.4415120027749902,
+    "mean_observed_rate": 0.44070657596371887
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC1",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 24,
+    "mean_prediction": 0.5529492153385814,
+    "mean_observed_rate": 0.47391428571428573
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 30,
+    "mean_prediction": 0.08756362869089032,
+    "mean_observed_rate": 0.1776838095238095
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 198,
+    "mean_prediction": 0.14549045512792502,
+    "mean_observed_rate": 0.1996157768157768
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 84,
+    "mean_prediction": 0.24628555200409122,
+    "mean_observed_rate": 0.3016857142857142
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 60,
+    "mean_prediction": 0.34810250643062796,
+    "mean_observed_rate": 0.3448774603174603
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 48,
+    "mean_prediction": 0.44508009973423485,
+    "mean_observed_rate": 0.4585642857142857
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 18,
+    "mean_prediction": 0.530218368774983,
+    "mean_observed_rate": 0.46444444444444444
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 108,
+    "mean_prediction": 0.15890570954410174,
+    "mean_observed_rate": 0.13614814814814813
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 140,
+    "mean_prediction": 0.2248096603927987,
+    "mean_observed_rate": 0.23369061224489793
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 136,
+    "mean_prediction": 0.3487551108330537,
+    "mean_observed_rate": 0.35219075630252095
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 28,
+    "mean_prediction": 0.44751907235696653,
+    "mean_observed_rate": 0.4759306122448979
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 12,
+    "mean_prediction": 0.5554384836225543,
+    "mean_observed_rate": 0.38936190476190474
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 10,
+    "mean_prediction": 0.6567497067340498,
+    "mean_observed_rate": 0.46187428571428574
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 4,
+    "mean_prediction": 0.7235427250987455,
+    "mean_observed_rate": 0.831
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 76,
+    "mean_prediction": 0.07592479366754445,
+    "mean_observed_rate": 0.11429774436090223
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 138,
+    "mean_prediction": 0.14844075134997675,
+    "mean_observed_rate": 0.19266528640441682
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 100,
+    "mean_prediction": 0.2516941090037831,
+    "mean_observed_rate": 0.3032445714285714
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 52,
+    "mean_prediction": 0.34769575224850746,
+    "mean_observed_rate": 0.327145054945055
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 28,
+    "mean_prediction": 0.4417442558050279,
+    "mean_observed_rate": 0.48608571428571423
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 24,
+    "mean_prediction": 0.543460402463543,
+    "mean_observed_rate": 0.5134555555555556
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 16,
+    "mean_prediction": 0.6576721664667808,
+    "mean_observed_rate": 0.62325
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 4,
+    "mean_prediction": 0.7401850294680865,
+    "mean_observed_rate": 0.686
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 80,
+    "mean_prediction": 0.07452331818400967,
+    "mean_observed_rate": 0.11491142857142855
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 124,
+    "mean_prediction": 0.1459850250600288,
+    "mean_observed_rate": 0.1930952380952381
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 94,
+    "mean_prediction": 0.2455580821879998,
+    "mean_observed_rate": 0.29162472137791284
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 64,
+    "mean_prediction": 0.34151253279906246,
+    "mean_observed_rate": 0.3225571428571429
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 34,
+    "mean_prediction": 0.4424666015517796,
+    "mean_observed_rate": 0.46575686274509803
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 24,
+    "mean_prediction": 0.5427878356892551,
+    "mean_observed_rate": 0.5062888888888889
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 16,
+    "mean_prediction": 0.6481438401967154,
+    "mean_observed_rate": 0.649
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 2,
+    "mean_prediction": 0.7259313680403928,
+    "mean_observed_rate": 0.848
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "count_only",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 242,
+    "mean_prediction": 0.15247032998598178,
+    "mean_observed_rate": 0.2306965761511216
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "count_only",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 50,
+    "mean_prediction": 0.20875867807601436,
+    "mean_observed_rate": 0.144224
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "count_only",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 146,
+    "mean_prediction": 0.36389213193763126,
+    "mean_observed_rate": 0.39876712328767117
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "pooled_mean",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 438,
+    "mean_prediction": 0.2792029638349799,
+    "mean_observed_rate": 0.2768487932159165
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "task_family_mean",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 288,
+    "mean_prediction": 0.2632847354136216,
+    "mean_observed_rate": 0.3009470899470899
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "model_family",
+    "predictor": "task_family_mean",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 150,
+    "mean_prediction": 0.309765962403988,
+    "mean_observed_rate": 0.23058006349206348
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 45,
+    "mean_prediction": 0.08752008036669937,
+    "mean_observed_rate": 0.15408677248677247
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 186,
+    "mean_prediction": 0.14611658353842066,
+    "mean_observed_rate": 0.20666707629288275
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 93,
+    "mean_prediction": 0.2468160787137006,
+    "mean_observed_rate": 0.30427772657450075
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 48,
+    "mean_prediction": 0.3509575066245964,
+    "mean_observed_rate": 0.38439682539682546
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 45,
+    "mean_prediction": 0.4428939239724781,
+    "mean_observed_rate": 0.4294780952380952
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 15,
+    "mean_prediction": 0.5417766142441569,
+    "mean_observed_rate": 0.40373333333333333
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC1",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 6,
+    "mean_prediction": 0.6067858841721763,
+    "mean_observed_rate": 0.6257333333333334
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 60,
+    "mean_prediction": 0.08555714872461458,
+    "mean_observed_rate": 0.1313923809523809
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 162,
+    "mean_prediction": 0.1447968509359601,
+    "mean_observed_rate": 0.22893497942386828
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 84,
+    "mean_prediction": 0.24833831253223485,
+    "mean_observed_rate": 0.3026068027210884
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 60,
+    "mean_prediction": 0.34315167791787876,
+    "mean_observed_rate": 0.3034355555555555
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 60,
+    "mean_prediction": 0.44910975888770044,
+    "mean_observed_rate": 0.4120209523809523
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 12,
+    "mean_prediction": 0.5341920133184918,
+    "mean_observed_rate": 0.6618666666666667
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 106,
+    "mean_prediction": 0.15834733077690838,
+    "mean_observed_rate": 0.13518598382749325
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 138,
+    "mean_prediction": 0.22371846022235195,
+    "mean_observed_rate": 0.23164140786749482
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 137,
+    "mean_prediction": 0.34730116233887925,
+    "mean_observed_rate": 0.34625012165450125
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 33,
+    "mean_prediction": 0.4456582855298118,
+    "mean_observed_rate": 0.4152023088023088
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 16,
+    "mean_prediction": 0.5399337241659807,
+    "mean_observed_rate": 0.5322
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_chance_floor",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 8,
+    "mean_prediction": 0.6241206930007821,
+    "mean_observed_rate": 0.6638
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 90,
+    "mean_prediction": 0.07276612915522748,
+    "mean_observed_rate": 0.12364952380952378
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 122,
+    "mean_prediction": 0.14993666183118295,
+    "mean_observed_rate": 0.20527150663544108
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 99,
+    "mean_prediction": 0.24722996702360153,
+    "mean_observed_rate": 0.3005048581048581
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 53,
+    "mean_prediction": 0.34782143190421627,
+    "mean_observed_rate": 0.33034106019766396
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 38,
+    "mean_prediction": 0.4471384403731449,
+    "mean_observed_rate": 0.4439508771929825
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 17,
+    "mean_prediction": 0.5565784947929816,
+    "mean_observed_rate": 0.6388235294117647
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 9,
+    "mean_prediction": 0.6591895776947091,
+    "mean_observed_rate": 0.4911111111111111
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 8,
+    "mean_prediction": 0.7538074100472791,
+    "mean_observed_rate": 0.5105
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count",
+    "bin_left": 0.8,
+    "bin_right": 0.9,
+    "cells": 2,
+    "mean_prediction": 0.8185257504384886,
+    "mean_observed_rate": 0.798
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 91,
+    "mean_prediction": 0.07177746812741807,
+    "mean_observed_rate": 0.12127974882260595
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 119,
+    "mean_prediction": 0.14887186886169432,
+    "mean_observed_rate": 0.20399903961584637
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 91,
+    "mean_prediction": 0.24826434486743004,
+    "mean_observed_rate": 0.3028558869701727
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 55,
+    "mean_prediction": 0.3408652996258921,
+    "mean_observed_rate": 0.316098354978355
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 40,
+    "mean_prediction": 0.4414464569798735,
+    "mean_observed_rate": 0.4204933333333333
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.5,
+    "bin_right": 0.6,
+    "cells": 22,
+    "mean_prediction": 0.5408158846722114,
+    "mean_observed_rate": 0.5562909090909091
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.6,
+    "bin_right": 0.7,
+    "cells": 17,
+    "mean_prediction": 0.6447291980302675,
+    "mean_observed_rate": 0.5670588235294118
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "PC3_count_additive",
+    "bin_left": 0.7,
+    "bin_right": 0.8,
+    "cells": 3,
+    "mean_prediction": 0.7090650291827348,
+    "mean_observed_rate": 0.7679999999999999
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "count_only",
+    "bin_left": 0.0,
+    "bin_right": 0.1,
+    "cells": 73,
+    "mean_prediction": 0.09921103675734431,
+    "mean_observed_rate": 0.19552250489236786
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "count_only",
+    "bin_left": 0.1,
+    "bin_right": 0.2,
+    "cells": 146,
+    "mean_prediction": 0.15638554081825315,
+    "mean_observed_rate": 0.21851115459882584
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "count_only",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 73,
+    "mean_prediction": 0.23821349468402384,
+    "mean_observed_rate": 0.231013698630137
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "count_only",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 73,
+    "mean_prediction": 0.3049614026475482,
+    "mean_observed_rate": 0.44151598173515977
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "count_only",
+    "bin_left": 0.4,
+    "bin_right": 0.5,
+    "cells": 73,
+    "mean_prediction": 0.4194720053214826,
+    "mean_observed_rate": 0.3560182648401826
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "pooled_mean",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 219,
+    "mean_prediction": 0.2512728854098718,
+    "mean_observed_rate": 0.3024247010219613
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "pooled_mean",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 219,
+    "mean_prediction": 0.3024247010219613,
+    "mean_observed_rate": 0.25127288540987175
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "task_family_mean",
+    "bin_left": 0.2,
+    "bin_right": 0.3,
+    "cells": 219,
+    "mean_prediction": 0.2512728854098718,
+    "mean_observed_rate": 0.3024247010219613
+  },
+  {
+    "source": "descriptor_predictions.csv",
+    "axis": "target_family",
+    "predictor": "task_family_mean",
+    "bin_left": 0.3,
+    "bin_right": 0.4,
+    "cells": 219,
+    "mean_prediction": 0.3024247010219613,
+    "mean_observed_rate": 0.25127288540987175
+  }
+]

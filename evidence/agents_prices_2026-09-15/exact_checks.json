@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "evidence_kind": "stipulated examples, not empirical results",
+  "cost": {
+    "before": 100,
+    "after_compute_price_divided_by_ten": 46,
+    "speedup_of_affordability_fixed_procedure": 2.1739130434782608
+  },
+  "ten_complete_attempts": {
+    "marginal_success": 0.2,
+    "independent_success": 0.8926258176,
+    "perfectly_correlated_success": 0.2,
+    "assumes_correct_recognition": true
+  },
+  "finite_affordability_witness": {
+    "price_cut_can_expand_reach": true,
+    "unchanged_deadline_can_still_block": true,
+    "enumerated_inclusion_checks": 24
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "commit": "c418d7ed3c17e5995f503f6df7c26e9f7c58d09f",
+  "source_url": "https://github.com/schwallergroup/gollum",
+  "files": {
+    "sources/gollum/LICENSE": "0bbb75c895f7f2f3ebc907e2f3fed5f2346b597bd9acbccae01a3c2e75fb317e",
+    "sources/gollum/README.md": "90592d678bbffc9519e1075a243872977f6cdc5729c263c2387ab5968ac549a6",
+    "sources/gollum/data/c2-yield/c2_yield_data.csv": "ed8673d7a4d153246d4f5d69aec016cef3f773eff0c39a917a89c970f0a376a7",
+    "sources/gollum/data/additives/additive_rxn_screening_plate_3.csv": "3002576f31a20a6d04cf17ccc9a15142a4b0f75197bbb479d657a68d26acac10",
+    "sources/gollum/data/additives/additive_rxn_screening_plate_2.csv": "ce43af4b460f1b6eb787fb2b8701a45cd6f66b864603fc37b421a80ee881d831",
+    "sources/gollum/data/additives/additive_rxn_screening_plate_1.csv": "15999eaff2d46bd4d6390ea8303da14e5b8415ab059815e0ac47fbd39cc70efe",
+    "sources/gollum/data/additives/additive_rxn_screening_plate_4.csv": "8f6f3190527e529eaa5914ec0fbd6fc1eb9fcbc2efca3090cae3ac201e938d55",
+    "sources/gollum/data/vapdiff/vapdiff_data.csv": "8fc1444f6aa64b28134dac9a79523684a13b28997f43231a0d5b2101808bedcd",
+    "sources/gollum/data/hplc/hplc_data.csv": "a342ec6fa88ae36d10430f9f761f8cfc26d59e1d646b6e17583556711681a35f",
+    "sources/gollum/data/buchwald-hartwig/bh_reaction_3.csv": "f9cd40ff95244dc0ac12911aed815625e0005a38f463e66f29b71baf2d0e18ea",
+    "sources/gollum/data/buchwald-hartwig/bh_reaction_2.csv": "4032ea444387187416dcab422955906b8084cbf3c27ceb2acce02de42316d78d",
+    "sources/gollum/data/buchwald-hartwig/bh_reaction_1.csv": "2a767a3cbb8d141906ed9b5770f557f618fa06925c1c0c246d4260e9007097bb",
+    "sources/gollum/data/buchwald-hartwig/bh_reaction_5.csv": "8dac33c327427bb0e035b719485091c084a87e68be2f48509ca294e11571ce49",
+    "sources/gollum/data/buchwald-hartwig/bh_reaction_4.csv": "f995b85d93e6656750186c7bc19da40e793d6d011aacaa5adcb98dbd3fe4efef",
+    "sources/gollum/data/suzuki-miyaura/suzuki_miyaura_data.csv": "261c18daefd71736da8cd14d55dd79dada72fcc9c4a644afbc988b5b71182861",
+    "sources/gollum/data/oer/oer_data.csv": "5421a8c9617468967defd500c33ae62eb3edfd16356bb299c104f07551632943",
+    "sources/gollum/src/gollum/data/dataset.py": "7d576ddcfbb7f4cfefd08d1d69bf56a3f8152f0c32a51e0261994dc66cc8ead8"
+  }
+}

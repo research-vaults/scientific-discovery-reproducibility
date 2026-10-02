@@ -1,0 +1,212 @@
+[
+  {
+    "target": "HumanEval",
+    "models": 124,
+    "families": 39,
+    "excluded_models": [
+      "meta-llama/Meta-Llama-3-70B",
+      "meta-llama/Meta-Llama-3-8B",
+      "meta-llama/Meta-Llama-3.1-405B-FP8",
+      "tiiuae/falcon-180B",
+      "tiiuae/falcon-40b",
+      "tiiuae/falcon-7b",
+      "tiiuae/falcon-rw-1b",
+      "01-ai/Yi-6B-200K",
+      "01-ai/Yi-34B-200K",
+      "openlm-research/open_llama_13b",
+      "internlm/internlm2-20b",
+      "internlm/internlm2-7b",
+      "deepseek-ai/deepseek-llm-67b-base",
+      "deepseek-ai/deepseek-moe-16b-base",
+      "Deci/DeciLM-7B",
+      "RWKV/rwkv-4-169m-pile",
+      "RWKV/rwkv-4-430m-pile",
+      "RWKV/rwkv-4-1b5-pile",
+      "RWKV/rwkv-4-7b-pile",
+      "RWKV/rwkv-4-14b-pile",
+      "RWKV/rwkv-raven-14b",
+      "RWKV/rwkv-4-3b-pile",
+      "Salesforce/codegen-6B-nl",
+      "Salesforce/codegen-16B-nl"
+    ],
+    "slope": 1.5149937135056641,
+    "intercept": -2.377904537030574,
+    "slope_cluster_percentile95": [
+      1.1808352968215177,
+      1.766901032859985
+    ],
+    "source_range": [
+      -1.4150409050879325,
+      2.0583588072851358
+    ],
+    "thresholds": [
+      {
+        "q": 0.2,
+        "source_sd_threshold": 0.6545308848946427,
+        "bootstrap_percentiles_positive_slope": [
+          0.44440457349256673,
+          0.8099891913362727
+        ],
+        "nonpositive_slopes": 0,
+        "outside_observed_source_range": false
+      },
+      {
+        "q": 0.5,
+        "source_sd_threshold": 1.569580464811403,
+        "bootstrap_percentiles_positive_slope": [
+          1.3668032187719792,
+          1.7532277716817444
+        ],
+        "nonpositive_slopes": 0,
+        "outside_observed_source_range": false
+      }
+    ],
+    "sensitivities": [
+      {
+        "link": "logit",
+        "clip": 0.001,
+        "slope": 1.7809289891412121
+      },
+      {
+        "link": "logit",
+        "clip": 0.005,
+        "slope": 1.5149937135056641
+      },
+      {
+        "link": "logit",
+        "clip": 0.01,
+        "slope": 1.3660839494024766
+      },
+      {
+        "link": "probit",
+        "clip": 0.005,
+        "slope": 0.7470516979751299
+      }
+    ],
+    "heldout_models": 109,
+    "heldout_families": 34,
+    "heldout_scores": {
+      "PC1": {
+        "aggregate_rate_mse": 0.017517548093523468,
+        "cross_entropy": 0.42575189745226666
+      },
+      "PC3": {
+        "aggregate_rate_mse": 0.01773756487299452,
+        "cross_entropy": 0.4241007971546726
+      },
+      "log_compute": {
+        "aggregate_rate_mse": 0.016627063928170767,
+        "cross_entropy": 0.40929515138694744
+      },
+      "target_mean": {
+        "aggregate_rate_mse": 0.03135815889131507,
+        "cross_entropy": 0.4656756549501462
+      }
+    }
+  },
+  {
+    "target": "GSM8K",
+    "models": 124,
+    "families": 39,
+    "excluded_models": [
+      "meta-llama/Meta-Llama-3-70B",
+      "meta-llama/Meta-Llama-3-8B",
+      "meta-llama/Meta-Llama-3.1-405B-FP8",
+      "tiiuae/falcon-180B",
+      "tiiuae/falcon-40b",
+      "tiiuae/falcon-7b",
+      "tiiuae/falcon-rw-1b",
+      "01-ai/Yi-6B-200K",
+      "01-ai/Yi-34B-200K",
+      "openlm-research/open_llama_13b",
+      "internlm/internlm2-20b",
+      "internlm/internlm2-7b",
+      "deepseek-ai/deepseek-llm-67b-base",
+      "deepseek-ai/deepseek-moe-16b-base",
+      "Deci/DeciLM-7B",
+      "RWKV/rwkv-4-169m-pile",
+      "RWKV/rwkv-4-430m-pile",
+      "RWKV/rwkv-4-1b5-pile",
+      "RWKV/rwkv-4-7b-pile",
+      "RWKV/rwkv-4-14b-pile",
+      "RWKV/rwkv-raven-14b",
+      "RWKV/rwkv-4-3b-pile",
+      "Salesforce/codegen-6B-nl",
+      "Salesforce/codegen-16B-nl"
+    ],
+    "slope": 2.0821778025767013,
+    "intercept": -2.4877001813998643,
+    "slope_cluster_percentile95": [
+      1.912499595060958,
+      2.18521536863423
+    ],
+    "source_range": [
+      -1.4798172834470107,
+      2.0588488523152235
+    ],
+    "thresholds": [
+      {
+        "q": 0.2,
+        "source_sd_threshold": 0.5289681884596891,
+        "bootstrap_percentiles_positive_slope": [
+          0.41496862410454016,
+          0.6416933289399633
+        ],
+        "nonpositive_slopes": 0,
+        "outside_observed_source_range": false
+      },
+      {
+        "q": 0.5,
+        "source_sd_threshold": 1.1947587657121923,
+        "bootstrap_percentiles_positive_slope": [
+          1.1000947669768055,
+          1.3165216320741444
+        ],
+        "nonpositive_slopes": 0,
+        "outside_observed_source_range": false
+      }
+    ],
+    "sensitivities": [
+      {
+        "link": "logit",
+        "clip": 0.001,
+        "slope": 2.2332699613140563
+      },
+      {
+        "link": "logit",
+        "clip": 0.005,
+        "slope": 2.0821778025767013
+      },
+      {
+        "link": "logit",
+        "clip": 0.01,
+        "slope": 1.9212911085154523
+      },
+      {
+        "link": "probit",
+        "clip": 0.005,
+        "slope": 1.0576994331759082
+      }
+    ],
+    "heldout_models": 109,
+    "heldout_families": 34,
+    "heldout_scores": {
+      "PC1": {
+        "aggregate_rate_mse": 0.010536046334402381,
+        "cross_entropy": 0.332424120163367
+      },
+      "PC3": {
+        "aggregate_rate_mse": 0.008392531066422765,
+        "cross_entropy": 0.3244235664946407
+      },
+      "log_compute": {
+        "aggregate_rate_mse": 0.0348170054604356,
+        "cross_entropy": 0.3942245981364956
+      },
+      "target_mean": {
+        "aggregate_rate_mse": 0.06128865029829211,
+        "cross_entropy": 0.4909198865893594
+      }
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "prior": "equal",
+    "N": 0,
+    "expected_implementable_reserve": 154.0,
+    "expected_future_expenditure": 57.94486253057478,
+    "prior_predictive_future_success": 0.9068231265369533,
+    "state_future_success": [
+      0.7712320754503899,
+      0.95601953488896,
+      0.99321776927151
+    ],
+    "fixed_pilot_cost": 0,
+    "pilot_at_least_one_hit": 0.0,
+    "expected_first_hit_expenditure": 57.94486253057478,
+    "first_hit_success": 0.9068231265369533,
+    "candidate_choice_probability": 1.0
+  },
+  {
+    "prior": "equal",
+    "N": 5,
+    "expected_implementable_reserve": 148.9649333333333,
+    "expected_future_expenditure": 58.15971292342157,
+    "prior_predictive_future_success": 0.9032361140507541,
+    "state_future_success": [
+      0.7893817438256157,
+      0.9401002733165434,
+      0.9802263250101033
+    ],
+    "fixed_pilot_cost": 55,
+    "pilot_at_least_one_hit": 0.6379199999999999,
+    "expected_first_hit_expenditure": 63.471340787504616,
+    "first_hit_success": 0.9645844100157654,
+    "candidate_choice_probability": 0.9999999999999998
+  },
+  {
+    "prior": "equal",
+    "N": 25,
+    "expected_implementable_reserve": 148.42256027719296,
+    "expected_future_expenditure": 59.66190146886212,
+    "prior_predictive_future_success": 0.9080476268976534,
+    "state_future_success": [
+      0.8542568285064486,
+      0.9163921781664864,
+      0.9534938740200255
+    ],
+    "fixed_pilot_cost": 275,
+    "pilot_at_least_one_hit": 0.9747660670608509,
+    "expected_first_hit_expenditure": 66.79392600658849,
+    "first_hit_success": 0.9975150357093872,
+    "candidate_choice_probability": 0.7852400664087423
+  },
+  {
+    "prior": "equal",
+    "N": 100,
+    "expected_implementable_reserve": 141.32422090930393,
+    "expected_future_expenditure": 58.569128719701666,
+    "prior_predictive_future_success": 0.9081725755929612,
+    "state_future_success": [
+      0.8893904323591999,
+      0.9042818130335547,
+      0.9308454813861307
+    ],
+    "fixed_pilot_cost": 1100,
+    "pilot_at_least_one_hit": 0.9999911461324695,
+    "expected_first_hit_expenditure": 67.22204649697034,
+    "first_hit_success": 0.9999991280968883,
+    "candidate_choice_probability": 0.6923026685834986
+  },
+  {
+    "prior": "pessimistic",
+    "N": 0,
+    "expected_implementable_reserve": 220.0,
+    "expected_future_expenditure": 90.15229097816388,
+    "prior_predictive_future_success": 0.901522909781639,
+    "state_future_success": [
+      0.9015229097816388,
+      0.9015229097816388,
+      0.9015229097816388
+    ],
+    "fixed_pilot_cost": 0,
+    "pilot_at_least_one_hit": 0.0,
+    "expected_first_hit_expenditure": 90.15229097816388,
+    "first_hit_success": 0.901522909781639,
+    "candidate_choice_probability": 0.0
+  },
+  {
+    "prior": "pessimistic",
+    "N": 5,
+    "expected_implementable_reserve": 213.69445899999994,
+    "expected_future_expenditure": 86.64815833563969,
+    "prior_predictive_future_success": 0.902186791606782,
+    "state_future_success": [
+      0.8949208649541233,
+      0.9183520071460959,
+      0.9441489892887363
+    ],
+    "fixed_pilot_cost": 55,
+    "pilot_at_least_one_hit": 0.478033,
+    "expected_first_hit_expenditure": 89.84157086499927,
+    "first_hit_success": 0.9485982086499928,
+    "candidate_choice_probability": 0.13861799999999996
+  },
+  {
+    "prior": "pessimistic",
+    "N": 25,
+    "expected_implementable_reserve": 203.99633216129456,
+    "expected_future_expenditure": 82.92003398818336,
+    "prior_predictive_future_success": 0.9026811893928773,
+    "state_future_success": [
+      0.893388507373836,
+      0.9228310077315519,
+      0.9568728272065307
+    ],
+    "fixed_pilot_cost": 275,
+    "pilot_at_least_one_hit": 0.9421769609798255,
+    "expected_first_hit_expenditure": 96.04077367628167,
+    "first_hit_success": 0.9943057553697106,
+    "candidate_choice_probability": 0.22728027417574498
+  },
+  {
+    "prior": "pessimistic",
+    "N": 100,
+    "expected_implementable_reserve": 197.80051263450244,
+    "expected_future_expenditure": 81.11927549199648,
+    "prior_predictive_future_success": 0.9033754048523468,
+    "state_future_success": [
+      0.8986666171381728,
+      0.9134077428249935,
+      0.9310133685930924
+    ],
+    "fixed_pilot_cost": 1100,
+    "pilot_at_least_one_hit": 0.9999787508605196,
+    "expected_first_hit_expenditure": 97.16624492104968,
+    "first_hit_success": 0.9999979074465745,
+    "candidate_choice_probability": 0.2190213702507926
+  },
+  {
+    "prior": "optimistic",
+    "N": 0,
+    "expected_implementable_reserve": 99.0,
+    "expected_future_expenditure": 40.8929037,
+    "prior_predictive_future_success": 0.9061668805999998,
+    "state_future_success": [
+      0.6125795109999999,
+      0.8657822719999999,
+      0.959646393
+    ],
+    "fixed_pilot_cost": 0,
+    "pilot_at_least_one_hit": 0.0,
+    "expected_first_hit_expenditure": 40.8929037,
+    "first_hit_success": 0.9061668805999998,
+    "candidate_choice_probability": 1.0
+  },
+  {
+    "prior": "optimistic",
+    "N": 5,
+    "expected_implementable_reserve": 101.30086999999996,
+    "expected_future_expenditure": 41.44571643037921,
+    "prior_predictive_future_success": 0.9086058009535123,
+    "state_future_success": [
+      0.670659610513884,
+      0.8759999777223474,
+      0.9519140633680777
+    ],
+    "fixed_pilot_cost": 55,
+    "pilot_at_least_one_hit": 0.7577659999999999,
+    "expected_first_hit_expenditure": 45.52477020160792,
+    "first_hit_success": 0.9771908050750524,
+    "candidate_choice_probability": 0.9999999999999998
+  },
+  {
+    "prior": "optimistic",
+    "N": 25,
+    "expected_implementable_reserve": 102.21416613414293,
+    "expected_future_expenditure": 42.51196623861321,
+    "prior_predictive_future_success": 0.9107052081494383,
+    "state_future_success": [
+      0.7986219756886641,
+      0.8788252703159437,
+      0.9358256521676902
+    ],
+    "fixed_pilot_cost": 275,
+    "pilot_at_least_one_hit": 0.9919715666824459,
+    "expected_first_hit_expenditure": 47.55576163557549,
+    "first_hit_success": 0.9992093832478751,
+    "candidate_choice_probability": 0.9663017879656096
+  },
+  {
+    "prior": "optimistic",
+    "N": 100,
+    "expected_implementable_reserve": 100.24467600341391,
+    "expected_future_expenditure": 42.64576740368011,
+    "prior_predictive_future_success": 0.9120318107255085,
+    "state_future_success": [
+      0.8819320990977879,
+      0.8873731121893346,
+      0.9233771119683756
+    ],
+    "fixed_pilot_cost": 1100,
+    "pilot_at_least_one_hit": 0.9999973438193703,
+    "expected_first_hit_expenditure": 47.66661394980718,
+    "first_hit_success": 0.9999997384270605,
+    "candidate_choice_probability": 0.9147390448112377
+  }
+]

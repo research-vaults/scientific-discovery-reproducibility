@@ -1,0 +1,134 @@
+[
+  {
+    "axis": "joint_families",
+    "task_family": "all",
+    "metric": "equal_cell_delta",
+    "percentiles_025_50_975": [
+      -0.011868870973413147,
+      -0.009316912177223337,
+      -0.006754932750871813
+    ],
+    "fraction_negative": 1.0
+  },
+  {
+    "axis": "joint_families",
+    "task_family": "all",
+    "metric": "equal_family_delta",
+    "percentiles_025_50_975": [
+      -0.012606166170888238,
+      -0.010214085626259832,
+      -0.0076912721449788335
+    ],
+    "fraction_negative": 1.0
+  },
+  {
+    "axis": "joint_families",
+    "task_family": "logical_deduction",
+    "metric": "equal_cell_delta",
+    "percentiles_025_50_975": [
+      -0.018861961867066134,
+      -0.013755135323404033,
+      -0.00968672839711242
+    ],
+    "fraction_negative": 1.0
+  },
+  {
+    "axis": "joint_families",
+    "task_family": "logical_deduction",
+    "metric": "equal_family_delta",
+    "percentiles_025_50_975": [
+      -0.0206058097917487,
+      -0.016239223829122122,
+      -0.012205672394414798
+    ],
+    "fraction_negative": 1.0
+  },
+  {
+    "axis": "joint_families",
+    "task_family": "tracking_shuffled_objects",
+    "metric": "equal_cell_delta",
+    "percentiles_025_50_975": [
+      -0.006728042938178862,
+      -0.004917198696233551,
+      -0.002627008740663281
+    ],
+    "fraction_negative": 0.998
+  },
+  {
+    "axis": "joint_families",
+    "task_family": "tracking_shuffled_objects",
+    "metric": "equal_family_delta",
+    "percentiles_025_50_975": [
+      -0.006360921951815404,
+      -0.004380435186720893,
+      -0.0018898325164242588
+    ],
+    "fraction_negative": 0.998
+  },
+  {
+    "axis": "joint_families_larger",
+    "task_family": "all",
+    "metric": "equal_cell_delta",
+    "percentiles_025_50_975": [
+      -0.03516276418122892,
+      -0.02050056104577966,
+      -0.012440176564297809
+    ],
+    "fraction_negative": 1.0
+  },
+  {
+    "axis": "joint_families_larger",
+    "task_family": "all",
+    "metric": "equal_family_delta",
+    "percentiles_025_50_975": [
+      -0.03190812896971237,
+      -0.018529550354970725,
+      -0.00813494316450145
+    ],
+    "fraction_negative": 1.0
+  },
+  {
+    "axis": "joint_families_larger",
+    "task_family": "logical_deduction",
+    "metric": "equal_cell_delta",
+    "percentiles_025_50_975": [
+      -0.022563691777896744,
+      -0.0012748203618992999,
+      0.011260852643874804
+    ],
+    "fraction_negative": 0.562
+  },
+  {
+    "axis": "joint_families_larger",
+    "task_family": "logical_deduction",
+    "metric": "equal_family_delta",
+    "percentiles_025_50_975": [
+      -0.014808656368498969,
+      0.003899751313892968,
+      0.01884906523285033
+    ],
+    "fraction_negative": 0.32
+  },
+  {
+    "axis": "joint_families_larger",
+    "task_family": "tracking_shuffled_objects",
+    "metric": "equal_cell_delta",
+    "percentiles_025_50_975": [
+      -0.058869575590847635,
+      -0.04007868479722984,
+      -0.02501049026998683
+    ],
+    "fraction_negative": 1.0
+  },
+  {
+    "axis": "joint_families_larger",
+    "task_family": "tracking_shuffled_objects",
+    "metric": "equal_family_delta",
+    "percentiles_025_50_975": [
+      -0.06710694142373264,
+      -0.04095600954957372,
+      -0.015297681274628638
+    ],
+    "fraction_negative": 1.0
+  }
+]

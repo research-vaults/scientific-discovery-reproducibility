@@ -1,0 +1,146 @@
+[
+  {
+    "N_candidate_only": 0,
+    "K_campaigns": 1,
+    "no_pilot_expected_reserve": 146.66666666666666,
+    "posterior_optimal_expected_reserve": 146.66666666666666,
+    "pilot_cost": 0,
+    "net_value": 0.0,
+    "perfect_information_upper_value": 7.333333333333343
+  },
+  {
+    "N_candidate_only": 0,
+    "K_campaigns": 10,
+    "no_pilot_expected_reserve": 1466.6666666666665,
+    "posterior_optimal_expected_reserve": 1466.6666666666665,
+    "pilot_cost": 0,
+    "net_value": 0.0,
+    "perfect_information_upper_value": 73.33333333333343
+  },
+  {
+    "N_candidate_only": 0,
+    "K_campaigns": 25,
+    "no_pilot_expected_reserve": 3666.6666666666665,
+    "posterior_optimal_expected_reserve": 3666.6666666666665,
+    "pilot_cost": 0,
+    "net_value": 0.0,
+    "perfect_information_upper_value": 183.33333333333357
+  },
+  {
+    "N_candidate_only": 0,
+    "K_campaigns": 100,
+    "no_pilot_expected_reserve": 14666.666666666666,
+    "posterior_optimal_expected_reserve": 14666.666666666666,
+    "pilot_cost": 0,
+    "net_value": 0.0,
+    "perfect_information_upper_value": 733.3333333333343
+  },
+  {
+    "N_candidate_only": 25,
+    "K_campaigns": 1,
+    "no_pilot_expected_reserve": 146.66666666666666,
+    "posterior_optimal_expected_reserve": 145.65656701474353,
+    "pilot_cost": 275,
+    "net_value": -273.98990034807684,
+    "perfect_information_upper_value": 7.333333333333343
+  },
+  {
+    "N_candidate_only": 25,
+    "K_campaigns": 10,
+    "no_pilot_expected_reserve": 1466.6666666666665,
+    "posterior_optimal_expected_reserve": 1456.5656701474354,
+    "pilot_cost": 275,
+    "net_value": -264.8990034807687,
+    "perfect_information_upper_value": 73.33333333333343
+  },
+  {
+    "N_candidate_only": 25,
+    "K_campaigns": 25,
+    "no_pilot_expected_reserve": 3666.6666666666665,
+    "posterior_optimal_expected_reserve": 3641.414175368588,
+    "pilot_cost": 275,
+    "net_value": -249.74750870192182,
+    "perfect_information_upper_value": 183.33333333333357
+  },
+  {
+    "N_candidate_only": 25,
+    "K_campaigns": 100,
+    "no_pilot_expected_reserve": 14666.666666666666,
+    "posterior_optimal_expected_reserve": 14565.656701474352,
+    "pilot_cost": 275,
+    "net_value": -173.99003480768727,
+    "perfect_information_upper_value": 733.3333333333343
+  },
+  {
+    "N_candidate_only": 50,
+    "K_campaigns": 1,
+    "no_pilot_expected_reserve": 146.66666666666666,
+    "posterior_optimal_expected_reserve": 143.76778592463168,
+    "pilot_cost": 550,
+    "net_value": -547.101119257965,
+    "perfect_information_upper_value": 7.333333333333343
+  },
+  {
+    "N_candidate_only": 50,
+    "K_campaigns": 10,
+    "no_pilot_expected_reserve": 1466.6666666666665,
+    "posterior_optimal_expected_reserve": 1437.6778592463168,
+    "pilot_cost": 550,
+    "net_value": -521.0111925796502,
+    "perfect_information_upper_value": 73.33333333333343
+  },
+  {
+    "N_candidate_only": 50,
+    "K_campaigns": 25,
+    "no_pilot_expected_reserve": 3666.6666666666665,
+    "posterior_optimal_expected_reserve": 3594.194648115792,
+    "pilot_cost": 550,
+    "net_value": -477.5279814491256,
+    "perfect_information_upper_value": 183.33333333333357
+  },
+  {
+    "N_candidate_only": 50,
+    "K_campaigns": 100,
+    "no_pilot_expected_reserve": 14666.666666666666,
+    "posterior_optimal_expected_reserve": 14376.778592463168,
+    "pilot_cost": 550,
+    "net_value": -260.1119257965024,
+    "perfect_information_upper_value": 733.3333333333343
+  },
+  {
+    "N_candidate_only": 100,
+    "K_campaigns": 1,
+    "no_pilot_expected_reserve": 146.66666666666666,
+    "posterior_optimal_expected_reserve": 141.62338562032517,
+    "pilot_cost": 1100,
+    "net_value": -1094.9567189536585,
+    "perfect_information_upper_value": 7.333333333333343
+  },
+  {
+    "N_candidate_only": 100,
+    "K_campaigns": 10,
+    "no_pilot_expected_reserve": 1466.6666666666665,
+    "posterior_optimal_expected_reserve": 1416.2338562032517,
+    "pilot_cost": 1100,
+    "net_value": -1049.5671895365851,
+    "perfect_information_upper_value": 73.33333333333343
+  },
+  {
+    "N_candidate_only": 100,
+    "K_campaigns": 25,
+    "no_pilot_expected_reserve": 3666.6666666666665,
+    "posterior_optimal_expected_reserve": 3540.5846405081293,
+    "pilot_cost": 1100,
+    "net_value": -973.9179738414628,
+    "perfect_information_upper_value": 183.33333333333357
+  },
+  {
+    "N_candidate_only": 100,
+    "K_campaigns": 100,
+    "no_pilot_expected_reserve": 14666.666666666666,
+    "posterior_optimal_expected_reserve": 14162.338562032517,
+    "pilot_cost": 1100,
+    "net_value": -595.6718953658509,
+    "perfect_information_upper_value": 733.3333333333343
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "score_values_checked": 192,
+  "maximum_score_difference": 6.661338147750939e-16,
+  "prediction_rows": 26400,
+  "independent_aggregation": "stdlib CSV, table -> source -> equal-source",
+  "worked_example": "PASS"
+}

@@ -1,0 +1,1082 @@
+[
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "BLOOM",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "BLOOM",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "CodeLlama",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "CodeLlama",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "DeepSeek-Coder",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "DeepSeek-Coder",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Falcon",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Falcon",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "GPT-Neo/J",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 204,
+    "train_models": 68,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 15
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "GPT-Neo/J",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 204,
+    "train_models": 68,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 15
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Gemma",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Gemma",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Llama",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Llama",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Llama-2",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Llama-2",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "MPT",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "MPT",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Mistral",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 216,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Mistral",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 216,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Mixtral",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 216,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Mixtral",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 216,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "OPT",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 195,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 24
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "OPT",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 195,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 24
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Phi",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Phi",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Pythia",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 195,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 24
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Pythia",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 195,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 24
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Qwen",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Qwen",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Qwen1.5",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 198,
+    "train_models": 66,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 21
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Qwen1.5",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 198,
+    "train_models": 66,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 21
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "StarCoder",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "StarCoder",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "StarCoder2",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "StarCoder2",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 210,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 9
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "XGLM",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "XGLM",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 207,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 12
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Yi",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families",
+    "heldout_model_family": "Yi",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 213,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5,
+      7
+    ],
+    "test_rows": 6
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "BLOOM",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "BLOOM",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "CodeLlama",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "CodeLlama",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "DeepSeek-Coder",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "DeepSeek-Coder",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Falcon",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Falcon",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "GPT-Neo/J",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 136,
+    "train_models": 68,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 5
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "GPT-Neo/J",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 136,
+    "train_models": 68,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 5
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Gemma",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Gemma",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Llama",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Llama",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Llama-2",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Llama-2",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "MPT",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "MPT",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Mistral",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 144,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 1
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Mistral",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 144,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 1
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Mixtral",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 144,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 1
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Mixtral",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 144,
+    "train_models": 72,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 1
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "OPT",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 130,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 8
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "OPT",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 130,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 8
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Phi",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Phi",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Pythia",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 130,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 8
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Pythia",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 130,
+    "train_models": 65,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 8
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Qwen",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Qwen",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Qwen1.5",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 132,
+    "train_models": 66,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 7
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Qwen1.5",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 132,
+    "train_models": 66,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 7
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "StarCoder",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "StarCoder",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "StarCoder2",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "StarCoder2",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 140,
+    "train_models": 70,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 3
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "XGLM",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "XGLM",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 138,
+    "train_models": 69,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 4
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Yi",
+    "heldout_task_family": "logical_deduction",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  },
+  {
+    "axis": "joint_families_larger",
+    "heldout_model_family": "Yi",
+    "heldout_task_family": "tracking_shuffled_objects",
+    "train_rows": 142,
+    "train_models": 71,
+    "train_model_families": 19,
+    "train_objects": [
+      3,
+      5
+    ],
+    "test_rows": 2
+  }
+]

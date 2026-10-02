@@ -1,0 +1,30 @@
+[
+  {
+    "axis": "joint_families",
+    "task": "all",
+    "delta": -0.009450762636185678,
+    "percentile_low": -0.011868870973413147,
+    "percentile_high": -0.006754932750871813
+  },
+  {
+    "axis": "joint_families_larger",
+    "task": "all",
+    "delta": -0.018310145813683787,
+    "percentile_low": -0.03516276418122892,
+    "percentile_high": -0.012440176564297809
+  },
+  {
+    "axis": "joint_families_larger",
+    "task": "logical_deduction",
+    "delta": 0.0012184453439220665,
+    "percentile_low": -0.022563691777896744,
+    "percentile_high": 0.011260852643874804
+  },
+  {
+    "axis": "joint_families_larger",
+    "task": "tracking_shuffled_objects",
+    "delta": -0.03783873697128965,
+    "percentile_low": -0.058869575590847635,
+    "percentile_high": -0.02501049026998683
+  }
+]

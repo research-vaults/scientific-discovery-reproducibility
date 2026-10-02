@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "folds": 80,
+  "target_label_invariance_checks": 640,
+  "test_cell_counts": {
+    "joint_families": 438,
+    "joint_families_larger": 146
+  },
+  "train_test_model_and_task_families_disjoint": true,
+  "duplicate_test_cells": false,
+  "no_predictor_tuning": true,
+  "scope": "Retrospective follow-up on the same archive; not independent confirmation."
+}
