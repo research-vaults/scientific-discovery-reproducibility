@@ -1,8 +1,12 @@
 [
   ".gitignore",
+  "EXPORT_PROVENANCE.json",
+  "LICENSE",
   "METR_INPUTS.json",
   "README.md",
+  "RELEASE_FILES.json",
   "SOURCE_DATA.json",
+  "VALIDATION.md",
   "evidence/agents_prices_2026-09-15/exact_checks.json",
   "evidence/biological_identification.json",
   "evidence/capability_horizon_analysis/results.json",
